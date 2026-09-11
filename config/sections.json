@@ -1,0 +1,80 @@
+{
+ "_about": "Section order and blurbs for README.md and FIELD-NOTES.md. Names must match the 'section' values written by the Notion sync.",
+ "min_entries": 1,
+ "notes_file": "FIELD-NOTES.md",
+ "notes_index": "Field notes",
+ "start_here_max": 12,
+ "sections": [
+  {
+   "name": "Google Ads",
+   "blurb": "Connecting an account to Claude, and the analyses I actually run against it.",
+   "kind": "mixed",
+   "subsections": [
+    "Connecting an account",
+    "Analysis recipes"
+   ]
+  },
+  {
+   "name": "Meta Ads",
+   "blurb": "Connectors, the MCP path, and what the agents can do once they are wired in.",
+   "kind": "mixed",
+   "subsections": [
+    "Connectors"
+   ]
+  },
+  {
+   "name": "SEO",
+   "blurb": "What to pull out of Search Console and what to do with it.",
+   "kind": "mixed",
+   "subsections": [
+    "Search Console audit"
+   ]
+  },
+  {
+   "name": "Cold email",
+   "blurb": "Deliverability, sequencing and the lessons that cost me something to learn.",
+   "kind": "mixed",
+   "subsections": []
+  },
+  {
+   "name": "Ads",
+   "blurb": "Creative, libraries and pipelines that are not platform-specific.",
+   "kind": "mixed",
+   "subsections": [
+    "Pipelines"
+   ]
+  },
+  {
+   "name": "Skills for marketers",
+   "blurb": "Claude skills that do real marketing work.",
+   "kind": "links",
+   "subsections": []
+  },
+  {
+   "name": "Distribution",
+   "blurb": "Getting the thing seen: virality mechanics and posting straight from the terminal.",
+   "kind": "mixed",
+   "subsections": []
+  },
+  {
+   "name": "Strategy",
+   "blurb": "The thinking above the tactics.",
+   "kind": "mixed",
+   "subsections": []
+  },
+  {
+   "name": "Prompts",
+   "blurb": "Long prompts worth keeping.",
+   "kind": "mixed",
+   "subsections": [
+    "Landing page mega-prompt"
+   ]
+  },
+  {
+   "name": "Learning",
+   "blurb": "People and sources worth your time.",
+   "kind": "links",
+   "subsections": []
+  }
+ ]
+}

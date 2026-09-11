@@ -1,0 +1,2643 @@
+{
+ "generated_by": "scripts/awesome-sync.py",
+ "sections": {
+  "Cold email": {
+   "": [
+    {
+     "block_id": "342daecf-ce6b-80c5-84e8-de9a930c066f",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Cold emailing lessons"
+    },
+    {
+     "block_id": "342daecf-ce6b-80c2-9869-faf1cdb653a2",
+     "type": "text",
+     "depth": 1,
+     "text": "(paid community post)"
+    },
+    {
+     "block_id": "342daecf-ce6b-8066-9189-c74385d10e2d",
+     "type": "text",
+     "depth": 1,
+     "text": "Two weeks into cold emailing (very low volume) and the number of things I've learned has been absolutely insane. This post is going to be the TLDR; version. If you want more in depth, watch the video and / or download read the document attached."
+    },
+    {
+     "block_id": "342daecf-ce6b-80c9-8b5e-ca445ab5dfae",
+     "type": "text",
+     "depth": 1,
+     "text": "I built my Outreach Dashboard (working name, I use with Claude) to be part of my cold email infrastructure. It's where I can view stats like deliverability, replies, bookings, etc. The first week was mostly tweaking the workflows, database, campaign structures, and email lists. The second week was finding posts about cold mailing to help further tweak things."
+    },
+    {
+     "block_id": "342daecf-ce6b-80c1-91c2-f97806307651",
+     "type": "text",
+     "depth": 1,
+     "text": "Yesterday, I sent my first 20 \"real\" emails. Even throughout the day I was learning stuff. Every lesson learned, Claude saved, so I could reference back to them."
+    },
+    {
+     "block_id": "342daecf-ce6b-8084-8160-d2deeed53e9f",
+     "type": "text",
+     "depth": 1,
+     "text": "Here are some of my learnings in no particular order:"
+    },
+    {
+     "block_id": "342daecf-ce6b-80a3-b7fb-da6dc8ab6cd8",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Don't read a singular post about cold emailing and think \"Oh, I'm good, I know what to do\". Read dozens, or hundreds if you can. Many, many of them will reiterate the same things, which is good. That means those items are important, but occasionally, you'll find a tiny nugget in a single thread that could change things tremendously. Those nuggets are included in the .md doc, and I'll try to point them out here as well."
+    },
+    {
+     "block_id": "342daecf-ce6b-8040-ade1-dc1503dbcb95",
+     "type": "text",
+     "depth": 1,
+     "text": "2. Mailgun is NOT the mailing software to use. Mailgun is only good for transactional emails. Cold emails (marketing emails) are against their TOS"
+    },
+    {
+     "block_id": "342daecf-ce6b-80dc-908e-cea5bb74d6b8",
+     "type": "text",
+     "depth": 1,
+     "text": "3. Never use your primary domain for emailing. You need your primary domain to be clean and solid for your clients."
+    },
+    {
+     "block_id": "342daecf-ce6b-8008-8dc1-d0c221d558d4",
+     "type": "text",
+     "depth": 1,
+     "text": "4. Text only emails. If you send HTML emails, in theory, you can get open rates in your dashboard, but the tradeoff is HTML emails will marginally hurt deliverability. Once you get to thousands of emails per day, any tiny marginal difference can be HUGE. The ONLY advantage to HTML emails is being able to see if there was an open."
+    },
+    {
+     "block_id": "342daecf-ce6b-8064-9faa-d0e9c7487209",
+     "type": "text",
+     "depth": 1,
+     "text": "5. Speaking of opens... they don't matter. All that matters is reply rate. I'm trying to find the thread, but I remember reading yesterday that at scale, you want to see 2 - 5%. Much lower than what I originally thought. For guys seeing over 10%, they're able to send hyper personalized emails. That requires a list I don't know how to build yet... when I figure it out, I'll let you know."
+    },
+    {
+     "block_id": "342daecf-ce6b-8021-95cc-fecffab7ddc9",
+     "type": "text",
+     "depth": 1,
+     "text": "7. Email validation is non-negotiable. You MUST use an email validation service on all your lists, regardless of where you got the list. I personally don't trust the \"we do it all\" places that will build, enrich and validate. Validation is something I do with a specialized email validator like Neverbounce or Zerobounce. I have used both. I like Neverbounce better. It's cheaper, allows you to pay as you go, and doesn't give me a huge zip file full of files I don't need."
+    },
+    {
+     "block_id": "342daecf-ce6b-808b-b206-e5afc0045bd5",
+     "type": "text",
+     "depth": 1,
+     "text": "9. Do NOT mail to MSN accounts. Anything that is part of Microsoft's network: Hotmail, Live, MSN, etc. Microsoft is the killer of deliverability. Why? I have no idea, but I know from practical experience that my personal email gets more non-spam in the spam box than any other I've ever used. Limit your emails to Gmail and Google workspace for better deliverability."
+    },
+    {
+     "block_id": "342daecf-ce6b-80d1-945e-d79bc223a724",
+     "type": "text",
+     "depth": 1,
+     "text": "10. Adding to this deliverability is King. Nothing else matters if you can't hit inboxes. The more inboxes you hit, the more eyes will see your emails, the more will open, the more will respond, but it all starts with deliverability."
+    },
+    {
+     "block_id": "342daecf-ce6b-8077-8c10-d6a2576e649f",
+     "type": "text",
+     "depth": 1,
+     "text": "11. Less is more. According to one golden thread in r/coldemail by a guy sending 2000+ emails per day, the third email and beyond significantly increases the spam rate. According to him, the first two are your golden ticket, after that, MAYBE a third, but it has to be something like a breakup email. Otherwise, he only emails a two email sequence."
+    },
+    {
+     "block_id": "342daecf-ce6b-8049-bd8a-eef9293b888f",
+     "type": "text",
+     "depth": 1,
+     "text": "Okay, that's enough typing. Read the attached, watch the video, and I'll report back as I get data and solid numbers flowing in."
+    },
+    {
+     "block_id": "342daecf-ce6b-80f3-9c56-c2fcd7646e67",
+     "type": "text",
+     "depth": 1,
+     "text": "Cheers!"
+    }
+   ]
+  },
+  "Meta Ads": {
+   "": [
+    {
+     "block_id": "342daecf-ce6b-8099-bf34-d8432248d8ef",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Meta Ads"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80ef-b976-f5dc585f089c",
+     "type": "bullet",
+     "depth": 1,
+     "text": "scrape ads that are running above 14-28 days = winners"
+    }
+   ],
+   "Connectors": [
+    {
+     "block_id": "352daecf-ce6b-801d-94c5-d387824eea84",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Meta Ads Connectors (Open beta)"
+    },
+    {
+     "block_id": "352daecf-ce6b-806f-8253-e46c7c031998",
+     "type": "bullet",
+     "depth": 1,
+     "text": "first official, first-party way to plug your AI agents into your Meta ad account"
+    },
+    {
+     "block_id": "352daecf-ce6b-8051-8081-dca92b831b79",
+     "type": "toggle",
+     "depth": 1,
+     "text": "What your agents can now do"
+    },
+    {
+     "block_id": "352daecf-ce6b-805d-a96e-ef5f575ffafb",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Pull performance. \"Show spend, ROAS, and CTR for every active campaign, sorted by CTR.\""
+    },
+    {
+     "block_id": "352daecf-ce6b-80fa-9782-ed1e90a26a32",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Auto-pause losers. \"Pause anything spending more than $100/day with ROAS under 1.2.\""
+    },
+    {
+     "block_id": "352daecf-ce6b-8055-b6a6-d883f11e63b4",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Build campaigns from a brief. \"Spin up a Summer Sale campaign with these 3 creatives, $50/day budget, US targeting. Leave it paused for me to review.\""
+    },
+    {
+     "block_id": "352daecf-ce6b-8086-bfea-e15d93e47af5",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Diagnose pixel health. \"Check my Conversions API setup and tell me where to invest.\""
+    },
+    {
+     "block_id": "352daecf-ce6b-8093-8093-d0e2b28db7a6",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Manage product catalogs. \"Import these 50 SKUs into a new catalog.\""
+    },
+    {
+     "block_id": "352daecf-ce6b-8051-aace-f89235e166bd",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Search the Meta Help Center inline. \"Why was this ad disapproved?\""
+    }
+   ]
+  },
+  "Google Ads": {
+   "": [
+    {
+     "block_id": "348daecf-ce6b-8012-a25e-f2d737bd68e6",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Google Ads"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-808b-a824-d7ed53b80e8e",
+     "type": "text",
+     "depth": 1,
+     "text": "Prompts"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8052-9b2c-fa5a52d8ed38",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Google Ads Tracking blueprint - not sure of quality/relevance"
+    }
+   ],
+   "Connecting an account": [
+    {
+     "block_id": "35fdaecf-ce6b-8012-b00b-ee1ebba3eab0",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Connecting Google Ads Account to Claude"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80da-b379-f2fdb55806bd",
+     "type": "heading",
+     "depth": 1,
+     "text": "Step 1 - Enable the Google Ads API"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-804e-93ee-cc4f7d6d715a",
+     "type": "heading",
+     "depth": 1,
+     "text": "Step 2 - Configure the OAuth consent screen"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80d4-a9a7-dcf9c73058d4",
+     "type": "bullet",
+     "depth": 1,
+     "text": "App name: Marketing Manager (or anything)"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-806d-a7b7-d836c11e716f",
+     "type": "bullet",
+     "depth": 1,
+     "text": "User support email: matt.zimak@gmail.com"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80be-bd5d-d55dd5cb173b",
+     "type": "bullet",
+     "depth": 1,
+     "text": "User Type: External"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80e0-ae4c-fabbf24c0519",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Developer contact: matt.zimak@gmail.com"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80fa-bdae-c10ac139ff19",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Skip the Scopes screen"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8036-9c35-c5fd4ebe54e4",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Leave publishing status as Testing (refresh tokens last 7 days in Testing mode for sensitive scopes - fine for personal use, but if you hit expiry, click Publish app to move to Production)"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-805e-b0f4-eddb55a66a6e",
+     "type": "heading",
+     "depth": 1,
+     "text": "Step 3 - Create the OAuth Client ID"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80dd-aa2e-fabf50052279",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Application type: Desktop app"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-809e-b392-f3c42c404c08",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Name: anything (e.g. \"agentmatik-manager\")"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80c0-a060-f63b29d96880",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Click Create → Download JSON"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-801c-ac4d-cfc45ff1b3f8",
+     "type": "text",
+     "depth": 1,
+     "text": "This gives you client_id and client_secret."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80ab-825d-fa0585992823",
+     "type": "heading",
+     "depth": 1,
+     "text": "Step 4 - Get a refresh token"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8029-949c-eb7b5be198cc",
+     "type": "text",
+     "depth": 1,
+     "text": "Once you have the client JSON, run the OAuth flow locally. Reference docs:"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8071-b3fc-d8420c3db3bc",
+     "type": "heading",
+     "depth": 1,
+     "text": "Step 5 - Check developer token access level"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80ea-92ef-d1c35ec89f2f",
+     "type": "text",
+     "depth": 1,
+     "text": "Run on terminal"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-802d-a160-e88b8e987cf0",
+     "type": "code",
+     "depth": 1,
+     "text": "cd ~/marketing-manager/google-ads\npython3 -m venv .venv\nsource .venv/bin/activate\npip install -r requirements.txt\npython auth.py",
+     "language": "bash"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-806c-97d2-e5f9c97f601c",
+     "type": "text",
+     "depth": 1,
+     "text": "auth.py will:"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8012-a11d-fb9330b94afa",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Open your browser"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-800d-be74-c5d866c377ba",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Ask you to sign in - use the Gmail that has manager access on 852-402-1823"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-801e-9280-ddb33357152e",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Show a \"Google hasn't verified this app\" warning → click Advanced → Go to Marketing Manager (unsafe)"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80dd-976b-e3ffba208226",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Print a GOOGLE_ADS_REFRESH_TOKEN=... line in the terminal"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80f2-b01a-f3210105a39e",
+     "type": "text",
+     "depth": 1,
+     "text": "Paste that line into .env (replace the empty GOOGLE_ADS_REFRESH_TOKEN=)."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80c7-a988-c55323cc55e1",
+     "type": "text",
+     "depth": 1,
+     "text": "Then:"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80b3-93b7-dca60c583058",
+     "type": "text",
+     "depth": 1,
+     "text": "python list_accounts.py"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8033-994c-c2f1ae79955a",
+     "type": "text",
+     "depth": 1,
+     "text": "You should see your MCC 354-835-9598 and the client account 852-402-1823. Paste the output back here and I'll help with the first real query."
+    }
+   ],
+   "Analysis recipes": [
+    {
+     "block_id": "35fdaecf-ce6b-800b-910e-caa8a113f16f",
+     "type": "toggle",
+     "depth": 0,
+     "text": "High-Spend Low-Convert Keyword Analysis"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80da-861f-dae1c1087ef6",
+     "type": "text",
+     "depth": 1,
+     "text": "Identifies keywords burning budget without generating conversions. Claude analyzes spend vs. conversion data across all campaigns, flags keywords with disproportionate cost-to-conversion ratios, and recommends bid reductions or negative keyword additions. This single workflow typically saves 10-15% of monthly ad spend."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80e9-ae6b-d92ad471c355",
+     "type": "text",
+     "depth": 1,
+     "text": "Example prompt - Find all keywords with spend > $100 and conversions < 2 in the last 30 days. Calculate cost per conversion where conversions > 0. Rank by total wasted spend. Recommend bid adjustments or negative keyword additions."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80da-9bbd-fc46af6903ba",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Search vs. Display Performance Comparison"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8062-a1b5-da0b897ca402",
+     "type": "text",
+     "depth": 1,
+     "text": "ompares effectiveness across Google’s network types to optimize budget allocation. Claude analyzes CTR, conversion rates, CPA, and ROAS for Search, Display, YouTube, and Shopping campaigns. Many accounts discover their Display campaigns have 3-5x higher CPA than Search, revealing easy optimization opportunities."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8022-9a12-f8f22d0dd125",
+     "type": "text",
+     "depth": 1,
+     "text": "Example prompt Compare performance across Search, Display, Shopping, and YouTube campaigns for the last 60 days. Show CTR, CPC, conversion rate, CPA, and ROAS for each network. Recommend budget reallocation based on efficiency metrics."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80ec-a406-f07c5e0c3e24",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Ad Copy Performance Analysis"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80a5-9ea6-d45ee2d6a6ac",
+     "type": "text",
+     "depth": 1,
+     "text": "Evaluates which headlines, descriptions, and extensions generate the highest engagement and conversions. Claude examines thousands of ad variations simultaneously, identifies top-performing messaging patterns, and suggests new ad copy variations based on proven elements. Ad copy testing can improve CTR by 20-40% when done systematically."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8063-b664-c86b12a045fa",
+     "type": "text",
+     "depth": 1,
+     "text": "Example prompt - Analyze all active responsive search ads. Compare CTR and conversion rates by headline position, description, and ad extensions. Identify top-performing message patterns. Generate 5 new ad variations using winning elements."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8008-a866-f9d708f0f4e5",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Quality Score Optimization"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-804e-97c8-e5dff8e4ab9f",
+     "type": "text",
+     "depth": 1,
+     "text": "Identifies keywords with low Quality Scores that increase cost-per-click and reduce ad visibility. Claude analyzes keyword relevance, ad relevance, landing page experience, and expected CTR components. A 1-point Quality Score improvement can reduce CPC by 7-9%, making this optimization extremely cost-effective."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80ab-a78d-d17f99f76adb",
+     "type": "text",
+     "depth": 1,
+     "text": "Example prompt - Find all keywords with Quality Score < 6. Group by campaign and ad group. Analyze keyword relevance, ad text alignment, and landing page match. Recommend specific improvements for keyword grouping and ad copy optimization."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8013-bc29-e8c8d3397296",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Device Performance Breakdown"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80a1-adad-d449ea618296",
+     "type": "text",
+     "depth": 1,
+     "text": "Reveals how mobile, desktop, and tablet users interact differently with your ads. Claude compares conversion rates, average order values, and user behavior across devices. Many B2B campaigns convert better on desktop (2-3x higher rates), while e-commerce often sees stronger mobile performance, especially for impulse purchases."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80ea-964e-cb3a1329828f",
+     "type": "text",
+     "depth": 1,
+     "text": "Example prompt - Analyze campaign performance by device type for the last 90 days. Compare mobile, desktop, and tablet metrics: CTR, conversion rate, CPA, and average order value. Recommend bid adjustments and budget allocation by device."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-800c-b9c8-e656cfb629d4",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Geographic Performance Analysis"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8034-992d-f3ea279d79a9",
+     "type": "text",
+     "depth": 1,
+     "text": "Uncovers which locations drive profitable conversions versus those that drain budget. Claude analyzes cost-per-conversion by city, state, or country, identifies geographic outliers, and recommends location bid adjustments or exclusions. Regional performance often varies by 200-300% within the same country."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80e1-b089-fe23b45eabae",
+     "type": "text",
+     "depth": 1,
+     "text": "Example prompt - Analyze geographic performance for the last 60 days. Show cost, conversions, and CPA by state/country. Flag locations with CPA > 50% above account average. Recommend location bid adjustments and potential exclusions."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80c9-ac86-cb103dc8e98c",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Dayparting Optimization"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8011-bb9c-cfc426493b3a",
+     "type": "text",
+     "depth": 1,
+     "text": "Determines optimal times of day and days of week for ad delivery. Claude examines hourly and daily performance patterns, identifies peak conversion windows, and suggests bid schedules. E-commerce accounts often see 40-60% higher conversion rates during evening hours (6-9 PM) compared to early morning."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8022-804d-f89d981620c9",
+     "type": "text",
+     "depth": 1,
+     "text": "Example prompt - Analyze performance by hour of day and day of week for the last 90 days. Show conversion rate, CPA, and impression volume by time period. Recommend bid schedule adjustments to maximize conversions during peak hours."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8068-9e7b-fa0796dabd0e",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Negative Keyword Discovery"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8002-a23e-cc4ed25538d1",
+     "type": "text",
+     "depth": 1,
+     "text": "Finds irrelevant search terms that trigger your ads and waste budget. Claude analyzes search term reports, identifies patterns in non-converting queries, and suggests negative keyword lists. Proper negative keyword management can reduce wasted spend by 15-25% while improving ad relevance."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80bf-9449-dedf24adea66",
+     "type": "text",
+     "depth": 1,
+     "text": "Example prompt - Review search term report for the last 30 days. Find queries with impressions > 100, clicks > 5, but 0 conversions. Group similar irrelevant terms and suggest negative keyword additions at campaign and ad group levels."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80ef-bb1b-ec5cbcf4ee08",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Competitor Analysis"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8096-9851-f4ba928a6ffc",
+     "type": "text",
+     "depth": 1,
+     "text": "Examines auction insights data to understand competitive landscape and identify opportunities. Claude analyzes impression share, average position, and overlap rates with competitors. This data reveals when competitors are increasing bids, launching new campaigns, or pulling back from certain keywords."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80fc-9aaa-ee2853547460",
+     "type": "text",
+     "depth": 1,
+     "text": "Example prompt - Pull auction insights for my top-spending campaigns over the last 60 days. Analyze impression share, position, and overlap with competitors. Identify keywords where we're losing significant impression share."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80fd-856a-cb769b82f739",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Weekly Performance Report"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8053-a323-e7c2e7fa0da1",
+     "type": "text",
+     "depth": 1,
+     "text": "Generates comprehensive account summaries with actionable insights for stakeholders. Claude compiles key metrics, identifies trends, highlights top performers and problem areas, and creates executive-friendly reports. Manual report creation typically takes 2-3 hours; Claude completes this in 60-90 seconds."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-805f-9d70-f16b7272e9a0",
+     "type": "text",
+     "depth": 1,
+     "text": "Example prompt - Generate a weekly Google Ads report for April 1-7, 2026. Include executive summary, key metrics table, top 5 performing campaigns, top 3 concerns requiring attention, and 5 action items for next week. Write for CMO-level audience."
+    }
+   ]
+  },
+  "Ads": {
+   "Pipelines": [
+    {
+     "block_id": "342daecf-ce6b-8004-b453-ee43c6b6149d",
+     "type": "toggle",
+     "depth": 0,
+     "text": "FB marketing pupeline"
+    },
+    {
+     "block_id": "336daecf-ce6b-803c-a430-fca0e69a416f",
+     "type": "text",
+     "depth": 1,
+     "text": "the skill stack he runs:"
+    },
+    {
+     "block_id": "336daecf-ce6b-809d-b3c5-d15ccb64f075",
+     "type": "quote",
+     "depth": 1,
+     "text": "Postiz for scheduling and posting to social media\nagent-media for creating UGC pictures\nLarry for generating TikTok slideshows\nVirlo for finding trending topics on social media\nGStack so the marketing copy doesnt sound like AI"
+    }
+   ],
+   "": [
+    {
+     "block_id": "342daecf-ce6b-807b-8409-c555f05edd99",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Ads"
+    },
+    {
+     "block_id": "337daecf-ce6b-800c-8767-e7d5fccb0da6",
+     "type": "text",
+     "depth": 1,
+     "text": "Meta Ads Agent with Openclaw"
+    },
+    {
+     "block_id": "337daecf-ce6b-8003-a82b-cb77d710badf",
+     "type": "text",
+     "depth": 1,
+     "text": "Untitled"
+    }
+   ]
+  },
+  "SEO": {
+   "": [
+    {
+     "block_id": "342daecf-ce6b-804d-90a4-c08e85642451",
+     "type": "toggle",
+     "depth": 0,
+     "text": "SEO"
+    }
+   ],
+   "Search Console audit": [
+    {
+     "block_id": "35fdaecf-ce6b-801e-a20b-fd66145f9fcf",
+     "type": "toggle",
+     "depth": 0,
+     "text": "SEO Audit - what to take from Google Search Console"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-804c-b35f-ee3c1c0aee33",
+     "type": "heading",
+     "depth": 1,
+     "text": "What to export from Google Search Console"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80c0-b3bb-f115be4a8b0c",
+     "type": "text",
+     "depth": 1,
+     "text": "Performance → Search results (last 16 months, all queries):"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-802e-9d7c-f71d6f432660",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Queries tab → Export as CSV - top queries, clicks, impressions, CTR, position"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-802b-b444-e29ef86bf3f4",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Pages tab → Export - top landing pages with same metrics"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8017-9539-c3c0a844bc72",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Countries tab + Devices tab → Export"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8002-926c-dc11f85d1f3f",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Compare last 3 months vs previous 3 months → Export (catches drops)"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80ff-8541-fc929ba29f83",
+     "type": "text",
+     "depth": 1,
+     "text": "Indexing → Pages:"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80eb-af4b-ccefeb0c7c34",
+     "type": "text",
+     "depth": 1,
+     "text": "5. Screenshot or export the \"Why pages aren't indexed\" table (all reasons + counts)"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80ea-8877-ca1d1c77d4f8",
+     "type": "text",
+     "depth": 1,
+     "text": "6. List of indexed pages count vs submitted"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80ab-a96b-f6312bde9a5b",
+     "type": "text",
+     "depth": 1,
+     "text": "Indexing → Sitemaps:"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80ad-9ccb-e20f34c584b2",
+     "type": "text",
+     "depth": 1,
+     "text": "7. Screenshot of submitted sitemaps + discovered URL counts"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8015-b053-e8393f30227a",
+     "type": "text",
+     "depth": 1,
+     "text": "Experience → Core Web Vitals:"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8053-8cfb-c330eaca8b07",
+     "type": "text",
+     "depth": 1,
+     "text": "8. Mobile + Desktop reports (screenshot the pass/fail counts)"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80da-826a-f001c91c2fe2",
+     "type": "text",
+     "depth": 1,
+     "text": "Enhancements (if present): any errors in Sitelinks, Breadcrumbs, Logos, etc."
+    },
+    {
+     "block_id": "35fdaecf-ce6b-8004-9257-e5f38f5e7910",
+     "type": "text",
+     "depth": 1,
+     "text": "Links:"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80fd-84d0-fd73b5fa54e7",
+     "type": "text",
+     "depth": 1,
+     "text": "9. Top linking sites + top linked pages (export both)"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-80bc-b2e1-d2a54b7cb255",
+     "type": "text",
+     "depth": 1,
+     "text": "Manual actions / Security:"
+    },
+    {
+     "block_id": "35fdaecf-ce6b-806a-9427-e2c5701de050",
+     "type": "text",
+     "depth": 1,
+     "text": "10. Screenshot - should be \"No issues\" but worth confirming"
+    }
+   ]
+  },
+  "Skills for marketers": {
+   "": [
+    {
+     "block_id": "342daecf-ce6b-8091-be16-deee52aee4f1",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Claude Skills"
+    }
+   ]
+  },
+  "Distribution": {
+   "": [
+    {
+     "block_id": "342daecf-ce6b-80cf-82e9-d966beaeac4b",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Virality on X"
+    },
+    {
+     "block_id": "33edaecf-ce6b-8076-aa56-dd74e53c10e1",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Zernio (posting from Claude Code)"
+    },
+    {
+     "block_id": "33edaecf-ce6b-8010-b2ab-e256118f31fe",
+     "type": "bullet",
+     "depth": 1,
+     "text": "you can send DMs via Zernio using CC - (paid community post)"
+    }
+   ]
+  },
+  "Prompts": {
+   "": [
+    {
+     "block_id": "351daecf-ce6b-80da-93d8-c4fe709bedec",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Prompts"
+    },
+    {
+     "block_id": "351daecf-ce6b-80b0-8022-d240168a5e98",
+     "type": "text",
+     "depth": 1,
+     "text": "Hyliox website -"
+    }
+   ],
+   "Landing page mega-prompt": [
+    {
+     "block_id": "351daecf-ce6b-8053-9631-c9eb751b1e0d",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Heliox prompt"
+    },
+    {
+     "block_id": "351daecf-ce6b-80e2-8bdc-f7dfcb89502e",
+     "type": "text",
+     "depth": 1,
+     "text": "https://www.hyliox.io/en/prompt?mcp_token=eyJwaWQiOjQ3NjUwNzcsInNpZCI6MTg3NjQyOTkxNywiYXgiOiI2YTFlMmJkOGE4NmNlMzc0ZTdhZWIxMjkxNGZlZmY3YiIsInRzIjoxNzc3NDU4MzE5LCJleHAiOjE3Nzk4Nzc1MTl9.qYaEXUlb3byh1GSBraG5yudazKIXelJsLjfYx8y4gSA&fbclid=PARlRTSARevLpleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAaeDxcg3PE_J_rloPUPgMrRuWVTSxLY5qhaAGLZOCLjkYt_ob6lknwlUwy0SHw_aem_5KODiSyS4KQZHNQHgUh8mQ"
+    },
+    {
+     "block_id": "351daecf-ce6b-80db-92e1-f127b0088990",
+     "type": "heading",
+     "depth": 1,
+     "text": "MEGA-PROMPT TEMPLATE - One-Shot Cinematic Landing Page (Video Scroll-Scrub)"
+    },
+    {
+     "block_id": "351daecf-ce6b-80f0-9828-c969a70c4f49",
+     "type": "quote",
+     "depth": 1,
+     "text": "Fill every {{PLACEHOLDER}} below, then paste the whole document into your generating model (Lovable, v0, Cursor, Claude, etc.) as a SINGLE prompt. Do NOT split it. The model must produce a working Vite app in one shot."
+    },
+    {
+     "block_id": "351daecf-ce6b-804d-997d-dd88620f0b83",
+     "type": "heading",
+     "depth": 1,
+     "text": "0. BRIEF (read first, do not skip)"
+    },
+    {
+     "block_id": "351daecf-ce6b-808a-9c36-d0b742b7b4b5",
+     "type": "text",
+     "depth": 1,
+     "text": "You are building a premium, single-page marketing site in the spirit of Apple's AirPods Pro page, Stripe's landing, and Sony Bravia launch sites. The signature interaction is a scroll-scrubbed video rendered as a canvas frame sequence in the hero. The rest of the page is editorial, cinematic, liquid-glass, Google-Stitch-tier quality."
+    },
+    {
+     "block_id": "351daecf-ce6b-80a8-bda4-e08413925b4c",
+     "type": "text",
+     "depth": 1,
+     "text": "Target stack - non-negotiable:"
+    },
+    {
+     "block_id": "351daecf-ce6b-80ff-908d-ef6441f42ab6",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Vite + React 18 + TypeScript"
+    },
+    {
+     "block_id": "351daecf-ce6b-80d3-9bf1-fc8f1c45feaa",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Tailwind CSS v4 (with @theme directive)"
+    },
+    {
+     "block_id": "351daecf-ce6b-8001-817d-ca89a0eb9263",
+     "type": "bullet",
+     "depth": 1,
+     "text": "shadcn/ui (button, accordion)"
+    },
+    {
+     "block_id": "351daecf-ce6b-8031-991b-d2b551ac9321",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Framer Motion (motion/react) for text + element animations"
+    },
+    {
+     "block_id": "351daecf-ce6b-8082-8990-fced191eda8b",
+     "type": "bullet",
+     "depth": 1,
+     "text": "lucide-react for icons"
+    },
+    {
+     "block_id": "351daecf-ce6b-80db-8a3f-c4ae52a21aef",
+     "type": "bullet",
+     "depth": 1,
+     "text": "@fontsource/* for self-hosted fonts"
+    },
+    {
+     "block_id": "351daecf-ce6b-80d7-816b-de933c61e16c",
+     "type": "text",
+     "depth": 1,
+     "text": "Language of the site UI copy: {{LANG}} (e.g. fr-CH, en-US)."
+    },
+    {
+     "block_id": "351daecf-ce6b-8068-b003-cd6d75d96025",
+     "type": "text",
+     "depth": 1,
+     "text": "Design intent (re-read before every section you build):"
+    },
+    {
+     "block_id": "351daecf-ce6b-80fe-8257-d7801bf0b86f",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Editorial, premium, cinematic. Think fashion-magazine meets SaaS."
+    },
+    {
+     "block_id": "351daecf-ce6b-8056-bd70-f27a69acc992",
+     "type": "bullet",
+     "depth": 1,
+     "text": "\"Google Stitch\"-tier polish: every spacing, every corner radius, every weight must feel intentional."
+    },
+    {
+     "block_id": "351daecf-ce6b-80f5-b283-ec4131b434be",
+     "type": "bullet",
+     "depth": 1,
+     "text": "No generic AI-slop: no emoji decorations, no default violet gradients, no stock-looking drop shadows, no text-center on everything, no placeholder lorem left behind."
+    },
+    {
+     "block_id": "351daecf-ce6b-802d-97d5-dc67d95db3d2",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Mobile first but optimized for desktop narrative (1440px is the primary canvas)."
+    },
+    {
+     "block_id": "351daecf-ce6b-80b4-99b8-c5cd5eb7bfca",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Dark theme by default. Light surfaces are ivory/cream, not pure white."
+    },
+    {
+     "block_id": "351daecf-ce6b-807b-ab14-c2962e0db513",
+     "type": "text",
+     "depth": 1,
+     "text": "What success looks like: npm run dev starts on first try, all 9 sections render, the hero frame-sequence scrubs smoothly with scroll, the marquees loop seamlessly, the FAQ accordion opens, no console errors, LCP < 2.5s on a 10 Mbps connection."
+    },
+    {
+     "block_id": "351daecf-ce6b-80ef-9a3a-e1d525efb726",
+     "type": "heading",
+     "depth": 1,
+     "text": "1. PLACEHOLDERS LEGEND"
+    },
+    {
+     "block_id": "351daecf-ce6b-80f0-ad6a-dde14fb0b0c3",
+     "type": "text",
+     "depth": 1,
+     "text": "Fill every entry in this table before submitting. The table is the single source of truth - every placeholder in the sections below is defined here."
+    },
+    {
+     "block_id": "351daecf-ce6b-8031-ace5-d21f57b707d7",
+     "type": "table_row",
+     "depth": 1,
+     "text": "Placeholder | Type | Example | Default",
+     "cells": [
+      "Placeholder",
+      "Type",
+      "Example",
+      "Default"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-80b3-831e-e080d6b99674",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{LANG}} | BCP-47 code | fr-CH | fr-CH",
+     "cells": [
+      "{{LANG}}",
+      "BCP-47 code",
+      "fr-CH",
+      "fr-CH"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-80bf-a439-dcc739680101",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{BRAND_NAME}} | string | ABP | Atelier",
+     "cells": [
+      "{{BRAND_NAME}}",
+      "string",
+      "ABP",
+      "Atelier"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-80ca-b211-f8bfc9e0633c",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{BRAND_TAGLINE}} | 3-6 words | Déménagement d'exception | Built for what's next",
+     "cells": [
+      "{{BRAND_TAGLINE}}",
+      "3-6 words",
+      "Déménagement d'exception",
+      "Built for what's next"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-80b4-9a19-f24a428ca3db",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{LOGO_PATH}} | image path | /logo.svg | /logo.svg",
+     "cells": [
+      "{{LOGO_PATH}}",
+      "image path",
+      "/logo.svg",
+      "/logo.svg"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8042-badd-fc64da04a700",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{NAV_ITEMS}} | array of {label,href} | [{\"label\":\"Services\",\"href\":\"#services\"},...] | 4-5 items",
+     "cells": [
+      "{{NAV_ITEMS}}",
+      "array of {label,href}",
+      "[{\"label\":\"Services\",\"href\":\"#services\"},...]",
+      "4-5 items"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-800c-ba21-ddc213c2f1b5",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{CTA_LABEL}} | 1-3 words | Devis gratuit | Get Started",
+     "cells": [
+      "{{CTA_LABEL}}",
+      "1-3 words",
+      "Devis gratuit",
+      "Get Started"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-809f-b6dc-d4d2bba7d66e",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{CTA_HREF}} | anchor/url | #devis | #cta",
+     "cells": [
+      "{{CTA_HREF}}",
+      "anchor/url",
+      "#devis",
+      "#cta"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8088-b186-ff979f388659",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{FRAMES_PATH}} | public path prefix | /frames | /frames",
+     "cells": [
+      "{{FRAMES_PATH}}",
+      "public path prefix",
+      "/frames",
+      "/frames"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8068-b06f-d830cbde72b2",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{FRAME_COUNT}} | integer | 240 | 240",
+     "cells": [
+      "{{FRAME_COUNT}}",
+      "integer",
+      "240",
+      "240"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-80f7-9568-d9bb896f9ade",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{FRAME_EXT}} | jpg or webp | jpg | jpg",
+     "cells": [
+      "{{FRAME_EXT}}",
+      "jpg or webp",
+      "jpg",
+      "jpg"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-80ac-9a6e-f17013d70ffe",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{FPS}} | integer | 30 | 30",
+     "cells": [
+      "{{FPS}}",
+      "integer",
+      "30",
+      "30"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-806e-b643-d8f4b6f3f2fd",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{HERO_HEADLINE}} | 2-5 words | Bouger, sans bruit. | Move, quietly.",
+     "cells": [
+      "{{HERO_HEADLINE}}",
+      "2-5 words",
+      "Bouger, sans bruit.",
+      "Move, quietly."
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8054-8a20-fca729fad718",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{HERO_SUB}} | 1-2 sentences | Du studio au penthouse. L'art du déménagement, signé {{BRAND_NAME}}. | One move. Zero friction.",
+     "cells": [
+      "{{HERO_SUB}}",
+      "1-2 sentences",
+      "Du studio au penthouse. L'art du déménagement, signé {{BRAND_NAME}}.",
+      "One move. Zero friction."
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8050-9214-ee1e3cecffdd",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{HERO_CTA_PRIMARY}} | 1-3 words | Devis gratuit | Start now",
+     "cells": [
+      "{{HERO_CTA_PRIMARY}}",
+      "1-3 words",
+      "Devis gratuit",
+      "Start now"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8025-8d55-f4b71ec1820d",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{HERO_CTA_SECONDARY}} | 1-3 words | Voir le film | Watch film",
+     "cells": [
+      "{{HERO_CTA_SECONDARY}}",
+      "1-3 words",
+      "Voir le film",
+      "Watch film"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-804c-9738-c1eb7b8a4bbb",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{PARTNERS}} | array of 5-6 strings | [\"Christie's\",\"Sotheby's\",\"Piaget\"] | 5 brand names",
+     "cells": [
+      "{{PARTNERS}}",
+      "array of 5-6 strings",
+      "[\"Christie's\",\"Sotheby's\",\"Piaget\"]",
+      "5 brand names"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-80fb-ae3c-e5df982b63ae",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{SERVICES}} | array of 6 {icon,title,body} | see Section 13 | 6 entries",
+     "cells": [
+      "{{SERVICES}}",
+      "array of 6 {icon,title,body}",
+      "see Section 13",
+      "6 entries"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-80de-9ac4-f587f4db292e",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{REASONS}} | array of 4 {icon,title,body} | see Section 14 | 4 entries",
+     "cells": [
+      "{{REASONS}}",
+      "array of 4 {icon,title,body}",
+      "see Section 14",
+      "4 entries"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-804d-a8af-e68b65d7616d",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{PROCESS_STEPS}} | array of 3-4 {n,title,body} | see Section 15 | 4 entries",
+     "cells": [
+      "{{PROCESS_STEPS}}",
+      "array of 3-4 {n,title,body}",
+      "see Section 15",
+      "4 entries"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8097-b7b3-e08887ffbfb9",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{STATS}} | array of 4 {value,label} | [{\"value\":\"2500+\",\"label\":\"déménagements\"}] | 4 entries",
+     "cells": [
+      "{{STATS}}",
+      "array of 4 {value,label}",
+      "[{\"value\":\"2500+\",\"label\":\"déménagements\"}]",
+      "4 entries"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8042-9b4e-f45bb4b95adb",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{STATS_BG_VIDEO}} | HLS or MP4 URL | https://stream.mux.com/xxx.m3u8 | placeholder URL",
+     "cells": [
+      "{{STATS_BG_VIDEO}}",
+      "HLS or MP4 URL",
+      "https://stream.mux.com/xxx.m3u8",
+      "placeholder URL"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8066-9547-c972e97dc564",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{TESTIMONIALS}} | array of ≥6 {quote,name,role} | see Section 17 | 6 entries",
+     "cells": [
+      "{{TESTIMONIALS}}",
+      "array of ≥6 {quote,name,role}",
+      "see Section 17",
+      "6 entries"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-804a-987f-e362ea4da712",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{FAQ_ITEMS}} | array of 5-8 {q,a} | see Section 18 | 6 entries",
+     "cells": [
+      "{{FAQ_ITEMS}}",
+      "array of 5-8 {q,a}",
+      "see Section 18",
+      "6 entries"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-801f-993d-ee26507c49d6",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{CTA_BG_VIDEO}} | HLS or MP4 URL | https://stream.mux.com/yyy.m3u8 | placeholder URL",
+     "cells": [
+      "{{CTA_BG_VIDEO}}",
+      "HLS or MP4 URL",
+      "https://stream.mux.com/yyy.m3u8",
+      "placeholder URL"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8056-9525-dff0e28b1949",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{CTA_HEADLINE}} | 4-7 words | Prêts à partir? | Ready to move?",
+     "cells": [
+      "{{CTA_HEADLINE}}",
+      "4-7 words",
+      "Prêts à partir?",
+      "Ready to move?"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8080-9ad1-e50b5c07e22e",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{CTA_SUB}} | 1 sentence | Un entretien. Un plan. Un déménagement. | One call. Done.",
+     "cells": [
+      "{{CTA_SUB}}",
+      "1 sentence",
+      "Un entretien. Un plan. Un déménagement.",
+      "One call. Done."
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-806c-b521-e183f235020e",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{FOOTER_LINKS}} | array of {label,href} | [{\"label\":\"Mentions\",\"href\":\"/legal\"}] | 4 entries",
+     "cells": [
+      "{{FOOTER_LINKS}}",
+      "array of {label,href}",
+      "[{\"label\":\"Mentions\",\"href\":\"/legal\"}]",
+      "4 entries"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8032-93ff-cde3ffc7aa62",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{COPYRIGHT}} | string | © 2026 {{BRAND_NAME}} SA. Tous droits réservés. | © 2026 {{BRAND_NAME}}. All rights reserved.",
+     "cells": [
+      "{{COPYRIGHT}}",
+      "string",
+      "© 2026 {{BRAND_NAME}} SA. Tous droits réservés.",
+      "© 2026 {{BRAND_NAME}}. All rights reserved."
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8052-be0d-d14dfe677389",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{COLOR_INK}} | HSL triplet | 20 15% 9% | 20 15% 9%",
+     "cells": [
+      "{{COLOR_INK}}",
+      "HSL triplet",
+      "20 15% 9%",
+      "20 15% 9%"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-80ca-a82a-c10c05779995",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{COLOR_CREAM}} | HSL triplet | 40 30% 90% | 40 30% 90%",
+     "cells": [
+      "{{COLOR_CREAM}}",
+      "HSL triplet",
+      "40 30% 90%",
+      "40 30% 90%"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8067-826f-c5a76b844b9b",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{COLOR_OCHRE}} | HSL triplet | 32 55% 65% | 32 55% 65%",
+     "cells": [
+      "{{COLOR_OCHRE}}",
+      "HSL triplet",
+      "32 55% 65%",
+      "32 55% 65%"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-806e-8c05-d19592e3fcfb",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{COLOR_TERRA}} | HSL triplet | 14 55% 31% | 14 55% 31%",
+     "cells": [
+      "{{COLOR_TERRA}}",
+      "HSL triplet",
+      "14 55% 31%",
+      "14 55% 31%"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-80c8-b6b1-f09e9f63c9b1",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{FONT_DISPLAY}} | Google-Font family | Oswald | Oswald",
+     "cells": [
+      "{{FONT_DISPLAY}}",
+      "Google-Font family",
+      "Oswald",
+      "Oswald"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-805a-a746-dd0d4511da2f",
+     "type": "table_row",
+     "depth": 1,
+     "text": "{{FONT_BODY}} | Google-Font family | Inter | Inter",
+     "cells": [
+      "{{FONT_BODY}}",
+      "Google-Font family",
+      "Inter",
+      "Inter"
+     ]
+    },
+    {
+     "block_id": "351daecf-ce6b-8049-a0ce-f56446df1b7e",
+     "type": "heading",
+     "depth": 1,
+     "text": "2. PRE-STEP - VIDEO → JPG FRAME PIPELINE"
+    },
+    {
+     "block_id": "351daecf-ce6b-80df-8935-cbeb532c4e9b",
+     "type": "text",
+     "depth": 1,
+     "text": "The hero uses a scroll-scrubbed frame sequence, not a <video> tag. The user supplies ONE short video (5-15s is ideal) which is extracted into still frames that the canvas swaps per scroll position. This is the pattern Apple uses on AirPods Pro / MacBook marketing pages."
+    },
+    {
+     "block_id": "351daecf-ce6b-8007-90f7-c4657c3ea255",
+     "type": "text",
+     "depth": 1,
+     "text": "Instructions the generating model MUST include in the project README:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8072-83c0-e05c8eb19386",
+     "type": "code",
+     "depth": 1,
+     "text": "# 1. Drop the source video at /input/source.mp4 in the project root.\nmkdir -p input public/frames\n\n# 2. Extract frames with ffmpeg (requires ffmpeg installed locally).\nffmpeg -i input/source.mp4 \\\\\n-vf \"fps={{FPS}},scale='min(1920,iw)':'-2':flags=lanczos\" \\\\\n-q:v 3 \\\\\npublic/frames/frame_%04d.{{FRAME_EXT}}\n\n# 3. Count the frames and paste the number into FRAME_COUNT in App.tsx.\nls public/frames | wc -l\n\n# Optional: convert to WebP for smaller payload (~40% size drop, same visual quality).\n# for f in public/frames/*.jpg; do\n# cwebp -q 82 \"$f\" -o \"${f%.jpg}.webp\" && rm \"$f\"\n# done",
+     "language": "bash"
+    },
+    {
+     "block_id": "351daecf-ce6b-8012-84e2-fe86a1b60520",
+     "type": "text",
+     "depth": 1,
+     "text": "Rules for the model:"
+    },
+    {
+     "block_id": "351daecf-ce6b-808d-8d14-dadec4e4d992",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Do NOT hardcode a specific frame count. Read it from the FRAME_COUNT constant at the top of App.tsx, which is a {{FRAME_COUNT}} placeholder."
+    },
+    {
+     "block_id": "351daecf-ce6b-808c-84e9-c3d8919ade03",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Filenames MUST be zero-padded 4-digit (frame_0001.jpg … frame_NNNN.jpg). If the user chooses WebP, same pattern with .webp."
+    },
+    {
+     "block_id": "351daecf-ce6b-8082-aed5-cfeb8f7c14d5",
+     "type": "bullet",
+     "depth": 1,
+     "text": "/input stays gitignored. /public/frames ships."
+    },
+    {
+     "block_id": "351daecf-ce6b-8095-9b58-cf6fde860cd3",
+     "type": "bullet",
+     "depth": 1,
+     "text": "If the build target is a platform with a 25 MB limit (Vercel hobby), warn the user in the README if total frame size exceeds 20 MB."
+    },
+    {
+     "block_id": "351daecf-ce6b-8069-864e-ef2d44f0c024",
+     "type": "text",
+     "depth": 1,
+     "text": "Fallback (no ffmpeg on the user's machine): document a Node script using @ffmpeg/ffmpeg (WASM) as a scripts/extract-frames.mjs that does the same extraction. Do not implement it unless the user asks; just mention its existence in the README."
+    },
+    {
+     "block_id": "351daecf-ce6b-8017-a61e-e9d9120d7ac2",
+     "type": "heading",
+     "depth": 1,
+     "text": "3. PROJECT BOOTSTRAP"
+    },
+    {
+     "block_id": "351daecf-ce6b-80f1-90fe-e46a98e29601",
+     "type": "text",
+     "depth": 1,
+     "text": "Run these commands in order. Every command is exact."
+    },
+    {
+     "block_id": "351daecf-ce6b-80f8-abcb-c274fd8bd477",
+     "type": "code",
+     "depth": 1,
+     "text": "npm create vite@latest. -- --template react-ts\nnpm install\nnpm install -D tailwindcss@next @tailwindcss/vite @tailwindcss/postcss autoprefixer\nnpm install motion lucide-react\nnpm install @fontsource/{{FONT_DISPLAY | lower}} @fontsource/{{FONT_BODY | lower}}\n\n# shadcn/ui\nnpx shadcn@latest init -d\nnpx shadcn@latest add button accordion",
+     "language": "bash"
+    },
+    {
+     "block_id": "351daecf-ce6b-80d6-b872-fcd98d72e75e",
+     "type": "text",
+     "depth": 1,
+     "text": "vite.config.ts: import @tailwindcss/vite plugin and wire it. Add a @ path alias to src/."
+    },
+    {
+     "block_id": "351daecf-ce6b-805c-ae94-eb5d41a82239",
+     "type": "text",
+     "depth": 1,
+     "text": "tsconfig.json: add \"paths\": { \"@/*\": [\"./src/*\"] } and the matching \"baseUrl\": \".\"."
+    },
+    {
+     "block_id": "351daecf-ce6b-80df-9d66-ddbdff509a96",
+     "type": "text",
+     "depth": 1,
+     "text": "File structure the model must create:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8095-ad16-d0247cecfa0c",
+     "type": "code",
+     "depth": 1,
+     "text": "src/\nApp.tsx\nmain.tsx\nindex.css\ncomponents/\nScrubSequence.tsx # the canvas frame renderer\nNavbar.tsx\nHero.tsx\nServicesBento.tsx\nPourquoi.tsx\nProcess.tsx\nStats.tsx\nTestimonials.tsx\nFaq.tsx\nCtaFooter.tsx\nBlurText.tsx # reusable word-stagger animation\nui/\nbutton.tsx\naccordion.tsx\nlib/\nutils.ts\nconstants.ts # FRAME_COUNT, FRAMES_PATH, etc. - single source of truth\npublic/\nframes/ # frame_0001.{{FRAME_EXT}} ... frame_NNNN.{{FRAME_EXT}}\n{{LOGO_PATH}}",
+     "language": "plain text"
+    },
+    {
+     "block_id": "351daecf-ce6b-80dc-86e3-c98ff5b56c06",
+     "type": "heading",
+     "depth": 1,
+     "text": "4. DESIGN TOKENS (index.css)"
+    },
+    {
+     "block_id": "351daecf-ce6b-8035-aaa4-c4893c014500",
+     "type": "text",
+     "depth": 1,
+     "text": "Add at the top of src/index.css, ABOVE the Tailwind import:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8041-9085-d13c6a18d55c",
+     "type": "code",
+     "depth": 1,
+     "text": "@import \"@fontsource/{{FONT_DISPLAY | lower}}/300.css\";\n@import \"@fontsource/{{FONT_DISPLAY | lower}}/400.css\";\n@import \"@fontsource/{{FONT_DISPLAY | lower}}/500.css\";\n@import \"@fontsource/{{FONT_DISPLAY | lower}}/600.css\";\n@import \"@fontsource/{{FONT_DISPLAY | lower}}/700.css\";\n@import \"@fontsource/{{FONT_BODY | lower}}/300.css\";\n@import \"@fontsource/{{FONT_BODY | lower}}/400.css\";\n@import \"@fontsource/{{FONT_BODY | lower}}/500.css\";\n@import \"@fontsource/{{FONT_BODY | lower}}/600.css\";\n\n@import \"tailwindcss\";\n\n:root {\n/* Raw palette (HSL triplets - no hsl() wrapper, so we can do alpha in Tailwind) */\n--ink: {{COLOR_INK}};\n--cream: {{COLOR_CREAM}};\n--ochre: {{COLOR_OCHRE}};\n--terra: {{COLOR_TERRA}};\n\n/* Semantic tokens */\n--background: var(--ink);\n--foreground: var(--cream);\n--card: var(--ink);\n--card-foreground: var(--cream);\n--popover: var(--ink);\n--popover-foreground:var(--cream);\n--primary: var(--ochre);\n--primary-foreground: var(--ink);\n--secondary: var(--terra);\n--secondary-foreground: var(--cream);\n--muted: 240 4% 16%;\n--muted-foreground: 40 6% 72%;\n--accent: var(--ochre);\n--accent-foreground: var(--ink);\n--destructive: 0 72% 51%;\n--destructive-foreground: var(--cream);\n--border: 40 30% 90% / 0.18;\n--input: 40 30% 90% / 0.18;\n--ring: var(--ochre);\n--radius: 0.75rem;\n\n/* Typography roles */\n--font-display: \"{{FONT_DISPLAY}}\", \"Impact\", \"Arial Narrow\", sans-serif;\n--font-body: \"{{FONT_BODY}}\", -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", system-ui, sans-serif;\n\n/* Layout */\n--gutter: clamp(20px, 4.2vw, 56px);\n--max: 1440px;\n}\n\nhtml, body, #root { background: hsl(var(--background)); color: hsl(var(--foreground)); }\nhtml { scroll-behavior: smooth; }\nbody {\nfont-family: var(--font-body);\nfont-size: 16px;\nline-height: 1.55;\n-webkit-font-smoothing: antialiased;\ntext-rendering: optimizeLegibility;\noverflow-x: hidden;\n}\n.font-display { font-family: var(--font-display); }\n.font-body { font-family: var(--font-body); }",
+     "language": "css"
+    },
+    {
+     "block_id": "351daecf-ce6b-8098-ab58-c43705d5a9bd",
+     "type": "text",
+     "depth": 1,
+     "text": "Add inside index.css under @layer components. These two classes are the visual backbone of every card, pill, and CTA."
+    },
+    {
+     "block_id": "351daecf-ce6b-80f2-9e2d-d5cb28dd6d8a",
+     "type": "heading",
+     "depth": 1,
+     "text": "6. TAILWIND v4 CONFIG (inside index.css)"
+    },
+    {
+     "block_id": "351daecf-ce6b-80e6-8b98-ccf1f436c182",
+     "type": "text",
+     "depth": 1,
+     "text": "Tailwind v4 uses the @theme at-rule INSIDE CSS. Place this block after @import \"tailwindcss\";."
+    },
+    {
+     "block_id": "351daecf-ce6b-8038-bcc6-fbf4457e3adb",
+     "type": "code",
+     "depth": 1,
+     "text": "@theme {\n--color-background: hsl(var(--background));\n--color-foreground: hsl(var(--foreground));\n--color-card: hsl(var(--card));\n--color-card-foreground: hsl(var(--card-foreground));\n--color-popover: hsl(var(--popover));\n--color-popover-foreground: hsl(var(--popover-foreground));\n--color-primary: hsl(var(--primary));\n--color-primary-foreground: hsl(var(--primary-foreground));\n--color-secondary: hsl(var(--secondary));\n--color-secondary-foreground: hsl(var(--secondary-foreground));\n--color-muted: hsl(var(--muted));\n--color-muted-foreground: hsl(var(--muted-foreground));\n--color-accent: hsl(var(--accent));\n--color-accent-foreground:hsl(var(--accent-foreground));\n--color-destructive: hsl(var(--destructive));\n--color-border: hsl(var(--border));\n--color-input: hsl(var(--input));\n--color-ring: hsl(var(--ring));\n\n--font-display: \"{{FONT_DISPLAY}}\", sans-serif;\n--font-body: \"{{FONT_BODY}}\", sans-serif;\n\n--radius-sm: calc(var(--radius) - 4px);\n--radius-md: calc(var(--radius) - 2px);\n--radius-lg: var(--radius);\n--radius-xl: calc(var(--radius) + 4px);\n--radius-2xl: calc(var(--radius) + 10px);\n--radius-3xl: calc(var(--radius) + 18px);\n\n--animate-marquee: marquee 28s linear infinite;\n--animate-marquee-rev: marquee-rev 32s linear infinite;\n--animate-fade-up: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;\n}\n\n@keyframes marquee { from { transform: translateX(0) } to { transform: translateX(-50%) } }\n@keyframes marquee-rev { from { transform: translateX(-50%) } to { transform: translateX(0) } }\n@keyframes fade-up {\nfrom { opacity: 0; transform: translate3d(0, 24px, 0); filter: blur(6px); }\nto { opacity: 1; transform: translate3d(0, 0, 0); filter: blur(0); }\n}",
+     "language": "css"
+    },
+    {
+     "block_id": "351daecf-ce6b-80ea-907c-d7cb3e0c935e",
+     "type": "heading",
+     "depth": 1,
+     "text": "7. SHADCN BUTTON VARIANTS"
+    },
+    {
+     "block_id": "351daecf-ce6b-8053-84ce-cdc08400261f",
+     "type": "text",
+     "depth": 1,
+     "text": "Open src/components/ui/button.tsx (generated by npx shadcn add button). Add these three variants in the buttonVariants cva variants.variant block:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8076-bd8f-f7be12eb73e9",
+     "type": "code",
+     "depth": 1,
+     "text": "hero: \"bg-primary text-primary-foreground rounded-full px-7 py-3.5 text-base font-medium tracking-[-0.01em] hover:bg-primary/90 transition-colors\",\nheroGlass: \"liquid-glass-strong text-foreground rounded-full px-7 py-3.5 text-base font-normal tracking-[-0.01em] hover:bg-white/5 transition-colors\",\nheroSolid: \"bg-foreground text-background rounded-full px-7 py-3.5 text-base font-medium tracking-[-0.01em] hover:bg-foreground/90 transition-colors\",",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-80b1-a02b-e9529d73cc26",
+     "type": "text",
+     "depth": 1,
+     "text": "Usage: <Button variant=\"hero\">…</Button>."
+    },
+    {
+     "block_id": "351daecf-ce6b-8038-a07d-f2cdb826f4c8",
+     "type": "heading",
+     "depth": 1,
+     "text": "8. SCRUB SEQUENCE COMPONENT - src/components/ScrubSequence.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-8035-bdfb-f62722060b87",
+     "type": "text",
+     "depth": 1,
+     "text": "This is the centerpiece. Reproduce this component verbatim. It renders the hero video as a frame-indexed canvas tied to scroll position."
+    },
+    {
+     "block_id": "351daecf-ce6b-805e-8e07-c3734985b989",
+     "type": "code",
+     "depth": 1,
+     "text": "import { useEffect, useRef } from \"react\";\n\nexport type ScrubSequenceProps = {\nframesPath: string; // e.g. \"/frames\"\nframeCount: number; // e.g. 240\next?: \"jpg\" | \"webp\"; // default \"jpg\"\nclassName?: string;\n/** Padding element the scrub reads its scroll range from. Should wrap the hero. */\nscrollTargetRef: React.RefObject<HTMLElement>;\n};\n\nconst pad4 = (n: number) => String(n).padStart(4, \"0\");\n\nexport function ScrubSequence({\nframesPath,\nframeCount,\next = \"jpg\",\nclassName,\nscrollTargetRef,\n}: ScrubSequenceProps) {\nconst canvasRef = useRef<HTMLCanvasElement>(null);\nconst imagesRef = useRef<HTMLImageElement[]>([]);\nconst rafRef = useRef<number | null>(null);\nconst visible = useRef(true);\nconst prefersReduced = useRef(\ntypeof window !== \"undefined\" &&\nwindow.matchMedia(\"(prefers-reduced-motion: reduce)\").matches\n);\n\n// --- Preload all frames ---\nuseEffect(() => {\nconst imgs: HTMLImageElement[] = [];\nconst urls = Array.from(\n{ length: frameCount },\n(_, i) => `${framesPath}/frame_${pad4(i + 1)}.${ext}`\n);\n// Priority-load frame 1 so first paint is immediate\nconst first = new Image();\nfirst.src = urls[0];\n// @ts-ignore - fetchpriority is valid but typings lag\nfirst.fetchPriority = \"high\";\nimgs[0] = first;\n\n// Load the rest in parallel\nurls.slice(1).forEach((src, i) => {\nconst img = new Image();\nimg.src = src;\nimgs[i + 1] = img;\n});\nimagesRef.current = imgs;\n}, [framesPath, frameCount, ext]);\n\n// --- Resize canvas to viewport with dpr ---\nuseEffect(() => {\nconst canvas = canvasRef.current;\nif (!canvas) return;\nconst resize = () => {\nconst dpr = Math.min(window.devicePixelRatio || 1, 2);\ncanvas.width = window.innerWidth * dpr;\ncanvas.height = window.innerHeight * dpr;\ncanvas.style.width = \"100%\";\ncanvas.style.height = \"100%\";\ndrawFrame(currentIndex());\n};\nresize();\nwindow.addEventListener(\"resize\", resize);\nreturn () => window.removeEventListener(\"resize\", resize);\n// eslint-disable-next-line react-hooks/exhaustive-deps\n}, []);\n\n// --- Pause rAF when off-screen ---\nuseEffect(() => {\nconst el = scrollTargetRef.current;\nif (!el) return;\nconst io = new IntersectionObserver(\n([entry]) => { visible.current = entry.isIntersecting; },\n{ threshold: 0 }\n);\nio.observe(el);\nreturn () => io.disconnect();\n}, [scrollTargetRef]);\n\n// --- rAF scroll loop ---\nuseEffect(() => {\nconst tick = () => {\nif (visible.current && !prefersReduced.current) {\ndrawFrame(currentIndex());\n}\nrafRef.current = requestAnimationFrame(tick);\n};\ntick();\nreturn () => { if (rafRef.current) cancelAnimationFrame(rafRef.current); };\n// eslint-disable-next-line react-hooks/exhaustive-deps\n}, []);\n\n// --- Static fallback for reduced motion ---\nuseEffect(() => {\nif (prefersReduced.current) {\nconst mid = Math.floor(frameCount / 2);\nconst img = imagesRef.current[mid];\nif (img?.complete) drawImage(img);\nelse img?.addEventListener(\"load\", () => drawImage(img), { once: true });\n}\n}, [frameCount]);\n\nconst currentIndex = () => {\nconst el = scrollTargetRef.current;\nif (!el) return 0;\nconst rect = el.getBoundingClientRect();\nconst total = el.offsetHeight - window.innerHeight;\nconst progress = total > 0\n? Math.min(1, Math.max(0, -rect.top / total))\n: 0;\nreturn Math.min(frameCount - 1, Math.floor(progress * (frameCount - 1)));\n};\n\nconst drawFrame = (idx: number) => {\nconst img = imagesRef.current[idx];\nif (img && img.complete && img.naturalWidth > 0) drawImage(img);\n};\n\nconst drawImage = (img: HTMLImageElement) => {\nconst canvas = canvasRef.current;\nif (!canvas) return;\nconst ctx = canvas.getContext(\"2d\");\nif (!ctx) return;\nconst cw = canvas.width, ch = canvas.height;\nconst iw = img.naturalWidth, ih = img.naturalHeight;\n// object-cover math\nconst scale = Math.max(cw / iw, ch / ih);\nconst dw = iw * scale, dh = ih * scale;\nconst dx = (cw - dw) / 2, dy = (ch - dh) / 2;\nctx.clearRect(0, 0, cw, ch);\nctx.drawImage(img, dx, dy, dw, dh);\n};\n\nreturn (\n<canvas\nref={canvasRef}\nclassName={className}\nstyle={{ transform: \"translateZ(0)\", willChange: \"contents\" }}\n/>\n);\n}",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-8067-ba57-fb7f95eebd36",
+     "type": "text",
+     "depth": 1,
+     "text": "Key rules for the generating model:"
+    },
+    {
+     "block_id": "351daecf-ce6b-805d-8507-e4bdebd00d7d",
+     "type": "bullet",
+     "depth": 1,
+     "text": "The hero wraps <Hero> content inside a <section ref={scrollTargetRef} className=\"relative h-[250vh]\">. The 250vh gives the scrub enough scroll distance to play the whole sequence. Tune to 200vh400vh depending on FRAME_COUNT."
+    },
+    {
+     "block_id": "351daecf-ce6b-8055-b3f3-d32900832f89",
+     "type": "bullet",
+     "depth": 1,
+     "text": "The canvas is position: fixed; inset: 0; z-index: 0; inside a <div className=\"sticky top-0 h-screen\"> - so it stays pinned while the outer section scrolls."
+    },
+    {
+     "block_id": "351daecf-ce6b-8073-88d5-c279c6ccf48e",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Content above the canvas (headline, CTAs) has z-index: 10 and sticky positioning so it stays in the viewport with the canvas."
+    },
+    {
+     "block_id": "351daecf-ce6b-8079-a1dc-ccf786bf0889",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Do NOT use <video> for the hero. Do NOT use position: absolute on the canvas - it must be sticky-fixed."
+    },
+    {
+     "block_id": "351daecf-ce6b-807a-90de-e94a9e0049c1",
+     "type": "heading",
+     "depth": 1,
+     "text": "9. BLURTEXT COMPONENT - src/components/BlurText.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-805f-b3eb-f0c3999561ee",
+     "type": "text",
+     "depth": 1,
+     "text": "Reusable word-stagger headline animation. Every section heading uses this."
+    },
+    {
+     "block_id": "351daecf-ce6b-8054-b14f-c5e9b32a5aa0",
+     "type": "code",
+     "depth": 1,
+     "text": "import { motion, useInView } from \"motion/react\";\nimport { useRef } from \"react\";\n\ntype Props = {\ntext: string;\nclassName?: string;\ndelay?: number; // seconds between words\nstartDelay?: number; // seconds before first word\nas?: keyof JSX.IntrinsicElements;\n};\n\nexport function BlurText({\ntext,\nclassName = \"\",\ndelay = 0.07,\nstartDelay = 0,\nas: Tag = \"h2\",\n}: Props) {\nconst ref = useRef<HTMLElement>(null);\nconst inView = useInView(ref, { once: true, amount: 0.3 });\nconst words = text.split(\" \");\n\nreturn (\n<Tag ref={ref as any} className={className}>\n{words.map((w, i) => (\n<motion.span\nkey={i}\nclassName=\"inline-block will-change-[filter,transform,opacity]\"\ninitial={{ filter: \"blur(10px)\", opacity: 0, y: 24 }}\nanimate={inView? { filter: \"blur(0)\", opacity: 1, y: 0 }: undefined}\ntransition={{\nduration: 0.7,\nease: [0.22, 1, 0.36, 1],\ndelay: startDelay + i * delay,\n}}\n>\n{w}\n{i < words.length - 1? \"\\\\u00A0\": \"\"}\n</motion.span>\n))}\n</Tag>\n);\n}",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-805f-accb-f3d0eea4da2b",
+     "type": "heading",
+     "depth": 1,
+     "text": "10. CONSTANTS FILE - src/lib/constants.ts"
+    },
+    {
+     "block_id": "351daecf-ce6b-805d-9377-e69aaa677ad1",
+     "type": "code",
+     "depth": 1,
+     "text": "export const FRAMES_PATH = \"{{FRAMES_PATH}}\";\nexport const FRAME_COUNT = {{FRAME_COUNT}};\nexport const FRAME_EXT = \"{{FRAME_EXT}}\" as const;",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-80c4-b4c4-f82ebea17bc0",
+     "type": "text",
+     "depth": 1,
+     "text": "Every component imports from here; there are no magic numbers scattered in the code."
+    },
+    {
+     "block_id": "351daecf-ce6b-8010-b7b6-eaa25e2b5485",
+     "type": "heading",
+     "depth": 1,
+     "text": "SECTION 1 - NAVBAR (floating liquid-glass pill)"
+    },
+    {
+     "block_id": "351daecf-ce6b-8061-bbe6-eba049b483da",
+     "type": "text",
+     "depth": 1,
+     "text": "File: src/components/Navbar.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-805c-9d75-c3e16e4aca17",
+     "type": "text",
+     "depth": 1,
+     "text": "Layout: Fixed at the top, centered, floating 16px from the viewport top. A single liquid-glass rounded-full pill containing logo, center links, and a primary CTA on the right."
+    },
+    {
+     "block_id": "351daecf-ce6b-80ea-94ba-c3c90297a12b",
+     "type": "text",
+     "depth": 1,
+     "text": "Spec:"
+    },
+    {
+     "block_id": "351daecf-ce6b-80a2-8684-e27db8c940b8",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Container: fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[min(1200px,calc(100vw-32px))]."
+    },
+    {
+     "block_id": "351daecf-ce6b-802a-8b5a-fc1b00123c69",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Inner: liquid-glass rounded-full px-2 py-2 flex items-center justify-between gap-4."
+    },
+    {
+     "block_id": "351daecf-ce6b-8000-8b49-f0a5f6e1964d",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Left: logo wrapper flex items-center gap-2 pl-3, logo <img src=\"{{LOGO_PATH}}\" className=\"h-6 w-auto\" />, brand text <span className=\"font-display text-lg tracking-tight\">{{BRAND_NAME}}</span>."
+    },
+    {
+     "block_id": "351daecf-ce6b-805c-befb-f56f68e6e3d2",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Center: <nav className=\"hidden md:flex items-center gap-1\"> containing {{NAV_ITEMS}} rendered as <a className=\"px-3.5 py-2 text-sm text-foreground/80 hover:text-foreground transition-colors font-body\">{item.label}</a>."
+    },
+    {
+     "block_id": "351daecf-ce6b-801a-8c0a-d56adb61eaa6",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Right: primary CTA <Button variant=\"heroSolid\" size=\"sm\" className=\"rounded-full px-4 py-1.5 text-sm\">{{CTA_LABEL}} <ArrowUpRight className=\"ml-1 size-4\" /></Button>."
+    },
+    {
+     "block_id": "351daecf-ce6b-800d-85d4-e907da8bc6d4",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Mobile (< md): replace center links with a right-aligned <Menu /> icon button that opens a full-screen liquid-glass sheet with the links stacked."
+    },
+    {
+     "block_id": "351daecf-ce6b-8024-b07b-dd1fd1362b56",
+     "type": "text",
+     "depth": 1,
+     "text": "Behavior:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8036-8b5e-cfb6e9d7a5aa",
+     "type": "bullet",
+     "depth": 1,
+     "text": "On scroll > 40px: apply backdrop-blur-xl via data-[scrolled=true] attribute, and reduce top offset from top-4 to top-2. Use Framer Motion's useScroll + useMotionValueEvent."
+    },
+    {
+     "block_id": "351daecf-ce6b-8013-8fa7-cba009de2f2f",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Active link: if the section in view matches the anchor, render text as text-foreground and add a subtle dot h-1 w-1 rounded-full bg-primary below."
+    },
+    {
+     "block_id": "351daecf-ce6b-8099-889a-edce051ef4ea",
+     "type": "heading",
+     "depth": 1,
+     "text": "SECTION 2 - HERO (scrub sequence + headline + CTAs)"
+    },
+    {
+     "block_id": "351daecf-ce6b-805b-8110-da67d5831d47",
+     "type": "text",
+     "depth": 1,
+     "text": "File: src/components/Hero.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-807f-91bd-e2ba356a248b",
+     "type": "text",
+     "depth": 1,
+     "text": "Structure:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8003-bd05-cd512c23bea7",
+     "type": "code",
+     "depth": 1,
+     "text": "<section ref={scrollRef} className=\"relative h-[250vh] bg-background\">\n<div className=\"sticky top-0 h-screen w-full overflow-hidden\">\n{/* Frame sequence canvas */}\n<ScrubSequence\nframesPath={FRAMES_PATH}\nframeCount={FRAME_COUNT}\next={FRAME_EXT}\nscrollTargetRef={scrollRef}\nclassName=\"absolute inset-0 w-full h-full z-0\"\n/>\n{/* Cinematic vignette */}\n<div className=\"absolute inset-0 z-[1] bg-[radial-gradient(120%_80%_at_50%_60%,transparent_40%,rgba(0,0,0,0.55)_100%)]\" />\n{/* Bottom fade into next section */}\n<div className=\"absolute bottom-0 inset-x-0 h-[40vh] z-[2] gradient-fade-b\" />\n{/* Content */}\n<div className=\"absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-6\">\n<motion.div initial={{opacity:0, y:12}} animate={{opacity:1, y:0}} transition={{delay:0.2}}>\n<div className=\"liquid-glass rounded-full px-1 py-1 inline-flex items-center gap-2\">\n<span className=\"bg-foreground text-background rounded-full px-3 py-1 text-xs font-semibold\">{{LANG === \"fr-CH\"? \"Nouveau\": \"New\"}}</span>\n<span className=\"pr-3 text-sm text-foreground/85\">{{BRAND_TAGLINE}}</span>\n</div>\n</motion.div>\n\n<BlurText\ntext=\"{{HERO_HEADLINE}}\"\nas=\"h1\"\nclassName=\"mt-6 font-display uppercase text-[clamp(56px,9vw,144px)] leading-[0.92] tracking-[-0.02em] text-foreground max-w-[14ch]\"\ndelay={0.09}\nstartDelay={0.15}\n/>\n\n<motion.p\ninitial={{filter:\"blur(10px)\", opacity:0, y:16}}\nanimate={{filter:\"blur(0)\", opacity:1, y:0}}\ntransition={{delay:0.9, duration:0.7, ease:[0.22,1,0.36,1]}}\nclassName=\"mt-6 font-body text-base md:text-lg text-foreground/70 max-w-xl leading-relaxed\"\n>\n{{HERO_SUB}}\n</motion.p>\n\n<motion.div\ninitial={{opacity:0, y:12}}\nanimate={{opacity:1, y:0}}\ntransition={{delay:1.1, duration:0.6}}\nclassName=\"mt-10 flex items-center gap-3\"\n>\n<Button variant=\"hero\" asChild>\n<a href=\"{{CTA_HREF}}\">{{HERO_CTA_PRIMARY}} <ArrowUpRight className=\"ml-1 size-4\" /></a>\n</Button>\n<Button variant=\"heroGlass\">\n<Play className=\"mr-1.5 size-4 fill-current\" /> {{HERO_CTA_SECONDARY}}\n</Button>\n</motion.div>\n\n{/* Partners row - absolute bottom */}\n<div className=\"absolute bottom-10 inset-x-0 flex flex-col items-center gap-4\">\n<span className=\"liquid-glass rounded-full px-4 py-1.5 text-xs font-body text-foreground/80\">\n{{LANG === \"fr-CH\"? \"Ils nous font confiance\": \"Trusted by\"}}\n</span>\n<div className=\"flex items-center gap-8 md:gap-14 flex-wrap justify-center px-6\">\n{{PARTNERS}}.map(p => (\n<span className=\"font-display italic text-xl md:text-2xl text-foreground/70 tracking-tight\">\n{p}\n</span>\n))\n</div>\n</div>\n</div>\n</div>\n</section>",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-8040-8302-f9f43b26b247",
+     "type": "text",
+     "depth": 1,
+     "text": "Rules:"
+    },
+    {
+     "block_id": "351daecf-ce6b-80be-8c70-ccccc8f9ea86",
+     "type": "bullet",
+     "depth": 1,
+     "text": "The section height is 250vh. The inner .sticky top-0 h-screen keeps the scrub pinned while the outer section scrolls through 2.5 viewports - this is what \"plays\" the sequence."
+    },
+    {
+     "block_id": "351daecf-ce6b-802c-922f-d6345440350e",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Headline is font-display uppercase, letter-spacing 0.02em, leading 0.92. Caps are non-negotiable for editorial feel. Max 14ch wrap."
+    },
+    {
+     "block_id": "351daecf-ce6b-801b-9382-c04665e4ed3c",
+     "type": "bullet",
+     "depth": 1,
+     "text": "CTA row: 1 solid ochre + 1 glass outline. Icons are 16px from lucide-react."
+    },
+    {
+     "block_id": "351daecf-ce6b-80a6-a4dc-c6f86c8e40c3",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Partners row: absolutely positioned bottom, not in flex flow, to survive on short hero."
+    },
+    {
+     "block_id": "351daecf-ce6b-8038-8296-f26333b258f9",
+     "type": "heading",
+     "depth": 1,
+     "text": "SECTION 3 - SERVICES BENTO"
+    },
+    {
+     "block_id": "351daecf-ce6b-80b8-a1e7-dfe951f6e765",
+     "type": "text",
+     "depth": 1,
+     "text": "File: src/components/ServicesBento.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-8083-9679-e966b8386640",
+     "type": "text",
+     "depth": 1,
+     "text": "Intent: Show 6 offerings as an asymmetric bento (1 tall + 3 small + 1 wide + 1 small). Every card is liquid-glass, rounded-2xl, hover-lifts with a subtle scale."
+    },
+    {
+     "block_id": "351daecf-ce6b-806a-a066-c89a571efd87",
+     "type": "text",
+     "depth": 1,
+     "text": "Grid (desktop):"
+    },
+    {
+     "block_id": "351daecf-ce6b-8035-87e8-fdaca4d63dba",
+     "type": "code",
+     "depth": 1,
+     "text": "[ tall ][ small ][ small ]\n[ tall ][ wide ]",
+     "language": "plain text"
+    },
+    {
+     "block_id": "351daecf-ce6b-802f-a3e0-e9407eb30b14",
+     "type": "text",
+     "depth": 1,
+     "text": "Implemented as:"
+    },
+    {
+     "block_id": "351daecf-ce6b-805d-850c-df1c82e803ab",
+     "type": "code",
+     "depth": 1,
+     "text": "<div className=\"grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5 max-w-[var(--max)] mx-auto px-[var(--gutter)]\">\n{/* idx 0: tall - row-span-2 */}\n{/* idx 1, 2: small */}\n{/* idx 3: wide - col-span-2 */}\n{/* idx 4: small (next to wide, same row) - actually occupy col 3 of row 2 */}\n{/* idx 5: row 3 full-width card */}\n</div>",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-80f4-a9fe-dd045900972b",
+     "type": "text",
+     "depth": 1,
+     "text": "Use explicit per-card classes:"
+    },
+    {
+     "block_id": "351daecf-ce6b-806a-a290-c6c1d5b3f55c",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Card 0: md:row-span-2 md:col-span-1 p-8 min-h-[480px]"
+    },
+    {
+     "block_id": "351daecf-ce6b-80b7-b3a2-e3eec4e610c1",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Card 1: md:col-span-1 p-6 min-h-[228px]"
+    },
+    {
+     "block_id": "351daecf-ce6b-80f5-81d7-d162fd085347",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Card 2: md:col-span-1 p-6 min-h-[228px]"
+    },
+    {
+     "block_id": "351daecf-ce6b-80ec-a430-d1e27b328072",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Card 3: md:col-span-2 p-7 min-h-[228px] (wide)"
+    },
+    {
+     "block_id": "351daecf-ce6b-8072-a59d-f91a003554f1",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Card 4: md:col-span-1 p-6 min-h-[228px] (next to wide - actually needs to be on the wide's row; restructure if needed)"
+    },
+    {
+     "block_id": "351daecf-ce6b-80d1-8073-e98383bb3da3",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Card 5: md:col-span-3 p-7 min-h-[200px] (full-width)"
+    },
+    {
+     "block_id": "351daecf-ce6b-80c3-b31a-c75c618e811c",
+     "type": "text",
+     "depth": 1,
+     "text": "Each card structure:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8063-bf08-ff2f4ec67a7b",
+     "type": "code",
+     "depth": 1,
+     "text": "<motion.div\nclassName=\"liquid-glass rounded-2xl p-6 relative overflow-hidden group\"\nwhileHover={{ y: -4 }}\ntransition={{ type: \"spring\", stiffness: 260, damping: 26 }}\n>\n<div className=\"liquid-glass-strong rounded-full w-11 h-11 flex items-center justify-center mb-5\">\n<Icon className=\"size-5 text-foreground\" />\n</div>\n<h3 className=\"font-display uppercase text-2xl md:text-3xl leading-[0.95] tracking-tight mb-3 max-w-[18ch]\">\n{service.title}\n</h3>\n<p className=\"font-body text-sm text-foreground/65 max-w-[38ch] leading-relaxed\">\n{service.body}\n</p>\n<ArrowUpRight className=\"absolute top-6 right-6 size-5 text-foreground/30 group-hover:text-foreground/80 transition-colors\" />\n</motion.div>",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-80a4-bd21-f8974ba49ab6",
+     "type": "text",
+     "depth": 1,
+     "text": "Section wrapper:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8062-8848-ef20f3144f1d",
+     "type": "bullet",
+     "depth": 1,
+     "text": "<section id=\"services\" className=\"relative py-28 md:py-40\"> with a small badge above the grid: <span className=\"liquid-glass rounded-full px-4 py-1.5 text-xs text-foreground/80\">{{LANG === \"fr-CH\"? \"Nos services\": \"What we do\"}}</span>."
+    },
+    {
+     "block_id": "351daecf-ce6b-80ee-b709-e54d46f4185b",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Big <BlurText> heading above: \"Tout ce qui bouge. Sous un seul toit.\" (or the EN equivalent - this headline is also a placeholder {{SERVICES_HEADLINE}} - add to the legend if the user has strong opinions; otherwise default)."
+    },
+    {
+     "block_id": "351daecf-ce6b-80f7-aad3-dd590e6050a1",
+     "type": "text",
+     "depth": 1,
+     "text": "{{SERVICES}} array shape:"
+    },
+    {
+     "block_id": "351daecf-ce6b-80f3-9401-d76a367284e2",
+     "type": "code",
+     "depth": 1,
+     "text": "[\n{ icon: \"Truck\", title: \"Déménagement\", body: \"...\" },\n{ icon: \"Package\", title: \"Emballage\", body: \"...\" },\n{ icon: \"Warehouse\", title: \"Garde-meubles\",body: \"...\" },\n{ icon: \"Globe\", title: \"International\",body: \"...\" },\n{ icon: \"Building2\", title: \"Bureaux\", body: \"...\" },\n{ icon: \"Sparkles\", title: \"Sur-mesure\", body: \"...\" },\n]",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-80dd-bbab-d18cd381755f",
+     "type": "heading",
+     "depth": 1,
+     "text": "SECTION 4 - POURQUOI NOUS (4-column \"why us\" grid)"
+    },
+    {
+     "block_id": "351daecf-ce6b-8040-9e82-d5b292c48060",
+     "type": "text",
+     "depth": 1,
+     "text": "File: src/components/Pourquoi.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-80fd-a151-e809e82aecf5",
+     "type": "text",
+     "depth": 1,
+     "text": "Intent: Four reassurance pillars, tight and dense. This is the rational-counterpart to the emotional hero."
+    },
+    {
+     "block_id": "351daecf-ce6b-805a-829f-ffeae8177b0b",
+     "type": "text",
+     "depth": 1,
+     "text": "Spec:"
+    },
+    {
+     "block_id": "351daecf-ce6b-800b-9514-f63db06416e0",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Wrapper: <section className=\"relative py-28 md:py-40 border-t border-border/40\">."
+    },
+    {
+     "block_id": "351daecf-ce6b-80b5-9628-c467b923c71f",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Heading (BlurText): font-display uppercase text-4xl md:text-6xl leading-[0.9] max-w-[18ch] mx-auto text-center tracking-tight, plus a one-sentence sub under it in text-foreground/65."
+    },
+    {
+     "block_id": "351daecf-ce6b-8019-b0f6-e7d9a58fe783",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Grid: grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-16 max-w-[var(--max)] mx-auto px-[var(--gutter)]."
+    },
+    {
+     "block_id": "351daecf-ce6b-8050-9c97-dc0266779355",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Each card: liquid-glass rounded-2xl p-7 flex flex-col gap-5 min-h-[260px]."
+    },
+    {
+     "block_id": "351daecf-ce6b-8059-96c4-c6fc17b7c00b",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Icon in a liquid-glass-strong rounded-full w-11 h-11 flex items-center justify-center."
+    },
+    {
+     "block_id": "351daecf-ce6b-80dc-8022-c6391a32037f",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Title: font-display uppercase text-xl tracking-tight."
+    },
+    {
+     "block_id": "351daecf-ce6b-80e3-b365-efddf59deed0",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Body: font-body text-sm text-foreground/65 leading-relaxed."
+    },
+    {
+     "block_id": "351daecf-ce6b-8030-acd4-ce3afacad5e9",
+     "type": "bullet",
+     "depth": 2,
+     "text": "A thin bottom-accent: <div className=\"mt-auto h-px w-10 bg-gradient-to-r from-primary to-transparent\" />."
+    },
+    {
+     "block_id": "351daecf-ce6b-804e-9925-fff287009869",
+     "type": "text",
+     "depth": 1,
+     "text": "{{REASONS}} array shape (4 entries, each {icon, title, body}):"
+    },
+    {
+     "block_id": "351daecf-ce6b-8087-ae59-d83df6227a59",
+     "type": "code",
+     "depth": 1,
+     "text": "[\n{ icon: \"ShieldCheck\", title: \"Assuré intégralement\", body: \"...\" },\n{ icon: \"Clock\", title: \"Ponctuels\", body: \"...\" },\n{ icon: \"Leaf\", title: \"Éco-conscients\", body: \"...\" },\n{ icon: \"Award\", title: \"Certifiés Swiss Moving\", body: \"...\" },\n]",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-80d8-bc6a-d4d54d6d481b",
+     "type": "heading",
+     "depth": 1,
+     "text": "SECTION 5 - PROCESS STEPS (horizontal numbered flow)"
+    },
+    {
+     "block_id": "351daecf-ce6b-807c-8e82-d5cbd8ebe358",
+     "type": "text",
+     "depth": 1,
+     "text": "File: src/components/Process.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-809e-861c-e2acc3bb703d",
+     "type": "text",
+     "depth": 1,
+     "text": "Intent: How it works in 3 or 4 steps. Numbered, horizontal on desktop, vertical on mobile, with connector lines that animate in on scroll."
+    },
+    {
+     "block_id": "351daecf-ce6b-8060-a50e-e82bd4471845",
+     "type": "text",
+     "depth": 1,
+     "text": "Layout (desktop):"
+    },
+    {
+     "block_id": "351daecf-ce6b-804b-a6cb-d25afacf8acc",
+     "type": "bullet",
+     "depth": 1,
+     "text": "grid grid-cols-1 md:grid-cols-4 gap-0 relative (gap-0 because connectors fill the gap)."
+    },
+    {
+     "block_id": "351daecf-ce6b-80d2-ad3a-df6b3cbf1da9",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Each step:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8008-a73e-cf867f0e2196",
+     "type": "code",
+     "depth": 2,
+     "text": "<div className=\"relative px-6 md:px-10 py-10 md:py-14 flex flex-col gap-4 items-start\">\n<span className=\"font-display text-[96px] md:text-[140px] leading-none text-primary/25 -mb-6 select-none\">\n{n.padStart(2, \"0\")}\n</span>\n<h3 className=\"font-display uppercase text-2xl md:text-3xl tracking-tight\">\n{step.title}\n</h3>\n<p className=\"font-body text-sm text-foreground/65 leading-relaxed max-w-[30ch]\">\n{step.body}\n</p>\n</div>",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-8033-bcc8-d200344f95db",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Between steps, a horizontal rule: absolute top-16 right-0 translate-x-1/2 w-px h-[calc(100%-64px)] bg-gradient-to-b from-transparent via-border to-transparent hidden md:block. For desktop horizontal flow, switch to a horizontal rule: absolute top-20 -right-0 h-px w-full bg-gradient-to-r from-border via-border to-transparent."
+    },
+    {
+     "block_id": "351daecf-ce6b-8096-89c2-d07c19d3a8c4",
+     "type": "text",
+     "depth": 1,
+     "text": "Heading pattern: same badge + BlurText as every section."
+    },
+    {
+     "block_id": "351daecf-ce6b-802d-b6e6-f051276ba847",
+     "type": "text",
+     "depth": 1,
+     "text": "{{PROCESS_STEPS}} array shape (3-4 entries, each {n, title, body}): n is \"1\"..\"4\"."
+    },
+    {
+     "block_id": "351daecf-ce6b-800f-9b1a-fb84b775f75b",
+     "type": "heading",
+     "depth": 1,
+     "text": "SECTION 6 - STATS BAND"
+    },
+    {
+     "block_id": "351daecf-ce6b-80ca-aae0-e170aafc17a7",
+     "type": "text",
+     "depth": 1,
+     "text": "File: src/components/Stats.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-8056-be3b-ddf453342664",
+     "type": "text",
+     "depth": 1,
+     "text": "Intent: Social-proof numbers on a cinematic desaturated video background - same pattern as Prompt2.md Stats section."
+    },
+    {
+     "block_id": "351daecf-ce6b-80d0-bdee-c8612c73f74d",
+     "type": "text",
+     "depth": 1,
+     "text": "Spec:"
+    },
+    {
+     "block_id": "351daecf-ce6b-808e-ab1f-d68842f48911",
+     "type": "bullet",
+     "depth": 1,
+     "text": "<section className=\"relative py-32 md:py-44 overflow-hidden\">."
+    },
+    {
+     "block_id": "351daecf-ce6b-80b6-a2c1-dc8bbc879d98",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Background: a <video> at autoPlay loop muted playsInline with src=\"{{STATS_BG_VIDEO}}\" (MP4 or via hls.js for .m3u8), absolute-positioned inset-0 w-full h-full object-cover filter saturate(0). If the URL is .m3u8, lazy-import hls.js and attach; if .mp4, set src directly."
+    },
+    {
+     "block_id": "351daecf-ce6b-8010-a107-cd3884cb7c7a",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Top + bottom 200px gradient fades (gradient-fade-t, gradient-fade-b)."
+    },
+    {
+     "block_id": "351daecf-ce6b-80b2-bcb1-ed43fe404d49",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Inner card: liquid-glass rounded-3xl p-10 md:p-14 mx-[var(--gutter)] max-w-[var(--max)] md:mx-auto relative z-10."
+    },
+    {
+     "block_id": "351daecf-ce6b-80e6-ab9b-f3a374a2e3f0",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Inside: grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12."
+    },
+    {
+     "block_id": "351daecf-ce6b-803d-99f8-d846135973b2",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Each stat: value font-display italic text-5xl md:text-6xl lg:text-7xl leading-none text-foreground, label below font-body text-sm text-foreground/60 mt-3 tracking-wide uppercase."
+    },
+    {
+     "block_id": "351daecf-ce6b-80af-aa14-ce380bd88dd4",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Separator between items (desktop only): <div className=\"hidden md:block absolute top-1/2 -translate-y-1/2 w-px h-12 bg-border\" /> positioned at the 25%, 50%, 75% marks."
+    },
+    {
+     "block_id": "351daecf-ce6b-80d0-befc-c9f256614082",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Animate each stat value with a motion.span counting from 0 to the number when in view (if the value is purely numeric - strip non-digits, preserve suffix like +)."
+    },
+    {
+     "block_id": "351daecf-ce6b-80e1-9e93-d3fc410a557f",
+     "type": "text",
+     "depth": 1,
+     "text": "{{STATS}} array shape (exactly 4 entries, each {value, label}):"
+    },
+    {
+     "block_id": "351daecf-ce6b-80e9-a783-f6c2e30b34fc",
+     "type": "code",
+     "depth": 1,
+     "text": "[\n{ value: \"2500+\", label: \"Déménagements\" },\n{ value: \"98%\", label: \"Clients satisfaits\" },\n{ value: \"24h\", label: \"Délai de devis\" },\n{ value: \"15 ans\",label: \"Métier\" },\n]",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-807d-a3fd-fd6f97f1eff3",
+     "type": "heading",
+     "depth": 1,
+     "text": "SECTION 7 - TESTIMONIALS MARQUEE"
+    },
+    {
+     "block_id": "351daecf-ce6b-80fc-b9df-f958944e8cb4",
+     "type": "text",
+     "depth": 1,
+     "text": "File: src/components/Testimonials.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-8048-a925-f42833946321",
+     "type": "text",
+     "depth": 1,
+     "text": "Intent: Two rows of testimonials scrolling in opposite directions - infinite marquee."
+    },
+    {
+     "block_id": "351daecf-ce6b-80c7-b492-e17f2220f008",
+     "type": "text",
+     "depth": 1,
+     "text": "Spec:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8008-b753-d6b23b48a37e",
+     "type": "bullet",
+     "depth": 1,
+     "text": "<section id=\"testimonials\" className=\"relative py-28 md:py-40\">."
+    },
+    {
+     "block_id": "351daecf-ce6b-80e6-9e1e-ec5be681a837",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Badge + <BlurText as=\"h2\"> heading as every section. Heading: {{LANG === \"fr-CH\"? \"Ils parlent mieux que nous.\": \"Don't take our word for it.\"}}."
+    },
+    {
+     "block_id": "351daecf-ce6b-8021-adb6-c0c00ebafb32",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Two rows below the heading, each a horizontal marquee:\n(the animate-[...] utility uses the theme tokens declared in the @theme block.)"
+    },
+    {
+     "block_id": "351daecf-ce6b-804d-8dbc-ebf5fff82d55",
+     "type": "code",
+     "depth": 2,
+     "text": "<div className=\"relative mt-16 flex flex-col gap-5 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]\">\n<div className=\"flex gap-5 w-max animate-[marquee_var(--animate-marquee)]\">\n{[...TESTIMONIALS, ...TESTIMONIALS].map((t, i) => <Card key={i} {...t} />)}\n</div>\n<div className=\"flex gap-5 w-max animate-[marquee-rev_var(--animate-marquee-rev)]\">\n{[...TESTIMONIALS.slice(3), ...TESTIMONIALS.slice(0,3), ...TESTIMONIALS.slice(3), ...TESTIMONIALS.slice(0,3)].map((t, i) => <Card key={i} {...t} />)}\n</div>\n</div>",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-8067-9d4b-eac4a2d1d871",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Each card: liquid-glass rounded-2xl p-7 w-[340px] md:w-[400px] shrink-0 flex flex-col gap-5."
+    },
+    {
+     "block_id": "351daecf-ce6b-80b5-acd3-f50270b42bda",
+     "type": "bullet",
+     "depth": 2,
+     "text": "<Quote className=\"size-5 text-primary/70\" /> at top."
+    },
+    {
+     "block_id": "351daecf-ce6b-8071-beb5-eeb858072b76",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Quote body: font-body text-foreground/85 italic leading-relaxed text-[15px]."
+    },
+    {
+     "block_id": "351daecf-ce6b-8031-9fab-c30643684a6f",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Author row: <div className=\"mt-auto flex items-center gap-3\"> containing an avatar placeholder (<div className=\"size-9 rounded-full bg-gradient-to-br from-primary/60 to-secondary/60\" />), name font-body font-medium text-sm, role font-body text-xs text-foreground/55 uppercase tracking-wide."
+    },
+    {
+     "block_id": "351daecf-ce6b-80df-80f7-d31900a85d1f",
+     "type": "text",
+     "depth": 1,
+     "text": "{{TESTIMONIALS}} array shape (≥6, each {quote, name, role})."
+    },
+    {
+     "block_id": "351daecf-ce6b-80b5-82f2-f037ceebe8c4",
+     "type": "text",
+     "depth": 1,
+     "text": "Pause on hover: add hover:[animation-play-state:paused] to each row container, and group + group-hover:[animation-play-state:paused] so both rows pause when either is hovered."
+    },
+    {
+     "block_id": "351daecf-ce6b-80cc-8d26-d266199a0e8d",
+     "type": "heading",
+     "depth": 1,
+     "text": "SECTION 8 - FAQ ACCORDION"
+    },
+    {
+     "block_id": "351daecf-ce6b-80a5-a4db-d85b828546d4",
+     "type": "text",
+     "depth": 1,
+     "text": "File: src/components/Faq.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-8012-81e6-fcdc0a03a82d",
+     "type": "text",
+     "depth": 1,
+     "text": "Intent: Classic editorial FAQ using shadcn Accordion, but with a two-column layout: title on the left (sticky), accordion on the right. Desktop only; on mobile it stacks."
+    },
+    {
+     "block_id": "351daecf-ce6b-8040-84e6-cb7385079f7c",
+     "type": "text",
+     "depth": 1,
+     "text": "Spec:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8030-b717-c47eab086822",
+     "type": "bullet",
+     "depth": 1,
+     "text": "<section id=\"faq\" className=\"relative py-28 md:py-40\">."
+    },
+    {
+     "block_id": "351daecf-ce6b-80e7-a39d-cfcc3835cf25",
+     "type": "bullet",
+     "depth": 1,
+     "text": "<div className=\"max-w-[var(--max)] mx-auto px-[var(--gutter)] grid grid-cols-1 md:grid-cols-[0.9fr_1.1fr] gap-16\">"
+    },
+    {
+     "block_id": "351daecf-ce6b-80db-89f8-e6c1962cea0c",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Left column (sticky, md:sticky md:top-24 md:self-start):"
+    },
+    {
+     "block_id": "351daecf-ce6b-8040-886f-fb325f468787",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Badge."
+    },
+    {
+     "block_id": "351daecf-ce6b-80a0-80fa-effbea41f8e9",
+     "type": "bullet",
+     "depth": 2,
+     "text": "<BlurText as=\"h2\" text=\"{{LANG === \"fr-CH\"? \"Questions fréquentes.\": \"Frequently asked.\"}}\" className=\"font-display uppercase text-5xl md:text-6xl leading-[0.9] tracking-tight mt-4\" />."
+    },
+    {
+     "block_id": "351daecf-ce6b-80c1-a2d7-e6e7278ab652",
+     "type": "bullet",
+     "depth": 2,
+     "text": "A paragraph + a Button variant=\"heroGlass\" \"Nous contacter\"."
+    },
+    {
+     "block_id": "351daecf-ce6b-80ae-93a8-ffe9df71dcb1",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Right column: <Accordion type=\"single\" collapsible> with items:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8052-b650-e0890045d333",
+     "type": "code",
+     "depth": 2,
+     "text": "<AccordionItem value={`item-${i}`} className=\"border-border/40\">\n<AccordionTrigger className=\"font-display uppercase text-lg md:text-xl tracking-tight py-6 hover:no-underline data-[state=open]:text-primary\">\n{item.q}\n</AccordionTrigger>\n<AccordionContent className=\"font-body text-foreground/70 text-[15px] leading-relaxed pb-6 max-w-[60ch]\">\n{item.a}\n</AccordionContent>\n</AccordionItem>",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-80a0-b767-facc43d365be",
+     "type": "text",
+     "depth": 1,
+     "text": "{{FAQ_ITEMS}} array shape (5-8 entries, each {q, a})."
+    },
+    {
+     "block_id": "351daecf-ce6b-8061-9ee9-dc7780f67d98",
+     "type": "heading",
+     "depth": 1,
+     "text": "SECTION 9 - CTA + FOOTER CINÉMATIQUE"
+    },
+    {
+     "block_id": "351daecf-ce6b-8058-bf2b-c1ce1d225df3",
+     "type": "text",
+     "depth": 1,
+     "text": "File: src/components/CtaFooter.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-8043-a514-f3441c147604",
+     "type": "text",
+     "depth": 1,
+     "text": "Intent: Final beat. Huge italic headline on a cinematic video background. Two CTAs. Footer bar under it."
+    },
+    {
+     "block_id": "351daecf-ce6b-8001-b6bf-ef7799ebcf95",
+     "type": "text",
+     "depth": 1,
+     "text": "Spec (CTA part):"
+    },
+    {
+     "block_id": "351daecf-ce6b-8015-a6e2-e8b01439a790",
+     "type": "bullet",
+     "depth": 1,
+     "text": "<section className=\"relative min-h-[100vh] flex flex-col items-center justify-center overflow-hidden\">."
+    },
+    {
+     "block_id": "351daecf-ce6b-8044-a4ff-dd44a3a11911",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Background: HLS or MP4 video same pattern as Stats - {{CTA_BG_VIDEO}}, filter: brightness(0.55). No desaturate here (vs stats which is saturate(0))."
+    },
+    {
+     "block_id": "351daecf-ce6b-800d-a07b-c815550efc65",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Top + bottom gradient fades (200px)."
+    },
+    {
+     "block_id": "351daecf-ce6b-801a-a878-dc4577ffadfe",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Content (z-10, centered):"
+    },
+    {
+     "block_id": "351daecf-ce6b-80e7-9714-fab100b93996",
+     "type": "bullet",
+     "depth": 2,
+     "text": "<BlurText as=\"h2\" text=\"{{CTA_HEADLINE}}\" className=\"font-display italic text-[clamp(56px,10vw,180px)] leading-[0.88] tracking-[-0.02em] text-center max-w-[16ch]\" />"
+    },
+    {
+     "block_id": "351daecf-ce6b-8002-90fc-e08d4cb071da",
+     "type": "bullet",
+     "depth": 2,
+     "text": "<p className=\"mt-8 font-body text-base md:text-lg text-foreground/75 max-w-xl text-center\">{{CTA_SUB}}</p>."
+    },
+    {
+     "block_id": "351daecf-ce6b-807b-8a57-edbe1780414a",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Buttons row: <div className=\"mt-10 flex items-center gap-3 flex-wrap justify-center\"> containing <Button variant=\"hero\">{{CTA_LABEL}}</Button> and <Button variant=\"heroGlass\">{{LANG === \"fr-CH\"? \"Nos tarifs\": \"Pricing\"}}</Button>."
+    },
+    {
+     "block_id": "351daecf-ce6b-80b5-b33b-e624092a4a7e",
+     "type": "text",
+     "depth": 1,
+     "text": "Spec (footer bar):"
+    },
+    {
+     "block_id": "351daecf-ce6b-8028-88d2-f70413891ce8",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Below the hero block, inside the same section at the bottom:"
+    },
+    {
+     "block_id": "351daecf-ce6b-80d6-acf9-d7b944c5649e",
+     "type": "code",
+     "depth": 2,
+     "text": "<div className=\"relative z-10 w-full border-t border-border/40 mt-auto\">\n<div className=\"max-w-[var(--max)] mx-auto px-[var(--gutter)] py-8 flex flex-col md:flex-row items-center justify-between gap-4\">\n<span className=\"font-body text-xs text-foreground/50\">{{COPYRIGHT}}</span>\n<nav className=\"flex items-center gap-6\">\n{{FOOTER_LINKS}}.map(l => <a className=\"font-body text-xs text-foreground/50 hover:text-foreground/80 transition-colors\">{l.label}</a>)\n</nav>\n</div>\n</div>",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-806e-9e6f-e0568e1e6637",
+     "type": "heading",
+     "depth": 1,
+     "text": "20. GLOBAL ANIMATION PATTERNS (recap - reuse verbatim)"
+    },
+    {
+     "block_id": "351daecf-ce6b-8095-94f3-c7d5b1f98f6c",
+     "type": "text",
+     "depth": 1,
+     "text": "Every animation in the site comes from one of these five primitives. Do not invent new ones."
+    },
+    {
+     "block_id": "351daecf-ce6b-8039-8e87-cccaa2f642b7",
+     "type": "numbered",
+     "depth": 1,
+     "text": "BlurText - section headings. Word-by-word stagger, 0.07s between words, 0.7s duration per word, cubic-bezier(0.22, 1, 0.36, 1)."
+    },
+    {
+     "block_id": "351daecf-ce6b-8060-aff5-c6647cf971e2",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Fade-up-on-view - subtext and CTAs. initial={{opacity:0, y:16, filter:\"blur(8px)\"}} → whileInView={{opacity:1, y:0, filter:\"blur(0)\"}}, viewport={{once:true, amount:0.3}}."
+    },
+    {
+     "block_id": "351daecf-ce6b-8045-974b-e7d06d9070f8",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Scroll-scrub canvas - hero only. The single mandatory interactive element. Implementation in Section 8 of this prompt."
+    },
+    {
+     "block_id": "351daecf-ce6b-804c-b8ca-f72d474f0dee",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Marquee - partners row in hero, testimonials row. 28s one direction, 32s reverse; gradient mask on each end; pause on hover."
+    },
+    {
+     "block_id": "351daecf-ce6b-804e-8716-f1193e3c64d9",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Liquid-glass ::before mask border - every card, pill, button. Gives the thin glowing top/bottom border. Never replace with a regular border."
+    },
+    {
+     "block_id": "351daecf-ce6b-8029-90fa-d097f40be0ae",
+     "type": "heading",
+     "depth": 1,
+     "text": "21. PAGE COMPOSITION - src/App.tsx"
+    },
+    {
+     "block_id": "351daecf-ce6b-8099-a393-fab6566a55dc",
+     "type": "code",
+     "depth": 1,
+     "text": "import { useRef } from \"react\";\nimport { Navbar } from \"@/components/Navbar\";\nimport { Hero } from \"@/components/Hero\";\nimport { ServicesBento } from \"@/components/ServicesBento\";\nimport { Pourquoi } from \"@/components/Pourquoi\";\nimport { Process } from \"@/components/Process\";\nimport { Stats } from \"@/components/Stats\";\nimport { Testimonials } from \"@/components/Testimonials\";\nimport { Faq } from \"@/components/Faq\";\nimport { CtaFooter } from \"@/components/CtaFooter\";\n\nexport default function App() {\nconst heroRef = useRef<HTMLElement>(null);\nreturn (\n<div className=\"bg-background text-foreground min-h-screen\">\n<Navbar />\n<main>\n<Hero scrollRef={heroRef} />\n<ServicesBento />\n<Pourquoi />\n<Process />\n<Stats />\n<Testimonials />\n<Faq />\n<CtaFooter />\n</main>\n</div>\n);\n}",
+     "language": "typescript"
+    },
+    {
+     "block_id": "351daecf-ce6b-80e1-ae19-cd8875fc55ba",
+     "type": "text",
+     "depth": 1,
+     "text": "Hero receives scrollRef as a prop so App.tsx owns the reference that both the outer tall section and the inner <ScrubSequence> need."
+    },
+    {
+     "block_id": "351daecf-ce6b-8028-aeb1-d6d46e2b6fd2",
+     "type": "heading",
+     "depth": 1,
+     "text": "22. ANTI-SLOP GUARDRAILS (read before submitting)"
+    },
+    {
+     "block_id": "351daecf-ce6b-806a-add1-d20eafaa5788",
+     "type": "text",
+     "depth": 1,
+     "text": "Every violation of these rules is a defect - the generating model must self-check before returning."
+    },
+    {
+     "block_id": "351daecf-ce6b-8013-a992-ecaa1040085b",
+     "type": "numbered",
+     "depth": 1,
+     "text": "No emoji anywhere. Not in copy, not in card headers, not in buttons."
+    },
+    {
+     "block_id": "351daecf-ce6b-80ef-a2dc-d0f9a218f66b",
+     "type": "numbered",
+     "depth": 1,
+     "text": "No default violet/purple gradients. The palette is warm (ochre + terra + cream + ink). Gradients use -primary → transparent, never from-blue-500 to-purple-600."
+    },
+    {
+     "block_id": "351daecf-ce6b-80d8-8ffe-e9e3a40c08f9",
+     "type": "numbered",
+     "depth": 1,
+     "text": "No shadow-2xl on cards. Shadows on liquid-glass are the ::before border and the inset highlight only. If you need depth, use backdrop blur, not drop shadow."
+    },
+    {
+     "block_id": "351daecf-ce6b-80fa-ba68-cef6e3ad5c9e",
+     "type": "numbered",
+     "depth": 1,
+     "text": "No rounded-3xl on buttons. Buttons are rounded-full. Cards are rounded-2xl. Inner pills are rounded-full. There is no rounded-xlmid-level rhythm in this design."
+    },
+    {
+     "block_id": "351daecf-ce6b-8039-a0cd-fc63ace7d1e9",
+     "type": "numbered",
+     "depth": 1,
+     "text": "No placeholder lorem ipsum in the final output. If the user has not filled a placeholder, output a clearly-flagged [TODO: {{PLACEHOLDER_NAME}}] instead, so it's obvious at first glance."
+    },
+    {
+     "block_id": "351daecf-ce6b-80af-8c62-e68249061f20",
+     "type": "numbered",
+     "depth": 1,
+     "text": "No text-center on body paragraphs except the hero and CTA section. Body prose is left-aligned by default - centered prose on a card is the #1 AI-slop tell."
+    },
+    {
+     "block_id": "351daecf-ce6b-80f9-8772-dbd602c0adfc",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Headings are font-display uppercase (with tracking-tight) OR font-display italic - never both on the same element, and never plain sentence-case serif on a dark background."
+    },
+    {
+     "block_id": "351daecf-ce6b-80b8-87db-e92c39dad44f",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Every section has a badge + heading + sub pattern at the top, except the hero (which is its own world) and the footer (which is bare). Badges are liquid-glass rounded-full px-4 py-1.5 text-xs."
+    },
+    {
+     "block_id": "351daecf-ce6b-80dd-a9f8-f368babc348f",
+     "type": "numbered",
+     "depth": 1,
+     "text": "No stock icons outside lucide-react. No heroicons, no Material, no custom SVGs unless supplied by the user."
+    },
+    {
+     "block_id": "351daecf-ce6b-80d6-a644-db3c9726ae4b",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Never use <video> for the hero. The hero is a canvas. <video> appears only in Stats and CTA backgrounds."
+    },
+    {
+     "block_id": "351daecf-ce6b-8054-b502-c90a71291aec",
+     "type": "numbered",
+     "depth": 1,
+     "text": "No motion.div with a long transition={{ duration: 2 }}. Every fade-in completes in ≤ 0.9s. Sites that feel slow feel bad."
+    },
+    {
+     "block_id": "351daecf-ce6b-8017-9c8c-d342cf788d8d",
+     "type": "numbered",
+     "depth": 1,
+     "text": "No console.log, no commented-out code, no empty files, no unused imports in the delivered project."
+    },
+    {
+     "block_id": "351daecf-ce6b-8066-9e4c-d66d5437219a",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Copy: the site is in {{LANG}}. Do not auto-translate placeholders. If a placeholder is {{HERO_SUB}} and the user wrote French, leave it French."
+    },
+    {
+     "block_id": "351daecf-ce6b-80fb-9b62-c40c13640815",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Responsive: desktop 1440 is the hero canvas, but every section must render cleanly at 375px (iPhone SE) with no horizontal scroll."
+    },
+    {
+     "block_id": "351daecf-ce6b-80de-a33f-f5ddedbf3d62",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Accessibility: every interactive element has a visible focus ring (focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background). The canvas has aria-hidden=\"true\" and a visually-hidden sibling <p className=\"sr-only\"> summarising the hero video."
+    },
+    {
+     "block_id": "351daecf-ce6b-8042-a990-c3510ddde9ae",
+     "type": "heading",
+     "depth": 1,
+     "text": "23. VERIFICATION (run before declaring done)"
+    },
+    {
+     "block_id": "351daecf-ce6b-8059-963e-cd72def136d0",
+     "type": "text",
+     "depth": 1,
+     "text": "The generating model must execute these checks and report in the final message:"
+    },
+    {
+     "block_id": "351daecf-ce6b-80c6-ab52-cf62032e67d2",
+     "type": "text",
+     "depth": 1,
+     "text": "Build:"
+    },
+    {
+     "block_id": "351daecf-ce6b-804c-a4b0-f8526b8129d0",
+     "type": "bullet",
+     "depth": 1,
+     "text": "npm run dev - starts with no error, prints a localhost URL."
+    },
+    {
+     "block_id": "351daecf-ce6b-80e1-9730-cf34148eaef0",
+     "type": "bullet",
+     "depth": 1,
+     "text": "npm run build - completes with no TypeScript error and no Vite error."
+    },
+    {
+     "block_id": "351daecf-ce6b-802c-8c44-d42ad52f0546",
+     "type": "text",
+     "depth": 1,
+     "text": "Visual:"
+    },
+    {
+     "block_id": "351daecf-ce6b-80c1-9f5e-eb2a40bcd34a",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Hero first paint shows frame 1 within 300ms (the priority-preloaded frame)."
+    },
+    {
+     "block_id": "351daecf-ce6b-80e0-90e1-f6245442130e",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Scrolling the hero scrubs the canvas smoothly (no visible stall > 50ms) through ≥ FRAME_COUNT / 2.5 distinct frames."
+    },
+    {
+     "block_id": "351daecf-ce6b-80d6-a6b2-f47f2c222319",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Marquee rows loop seamlessly (duplicate the array so the midpoint is invisible)."
+    },
+    {
+     "block_id": "351daecf-ce6b-80c8-84c9-f68b9c127adf",
+     "type": "bullet",
+     "depth": 1,
+     "text": "FAQ accordion opens and closes with smooth height animation."
+    },
+    {
+     "block_id": "351daecf-ce6b-805f-8f67-fb907ff76496",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Navbar pill reduces top-4 → top-2 when scrolled > 40px."
+    },
+    {
+     "block_id": "351daecf-ce6b-80ad-8a9b-c100ff683d33",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Mobile 375px: no horizontal overflow, hero scrub still renders, bento collapses to single column, testimonials marquee still animates."
+    },
+    {
+     "block_id": "351daecf-ce6b-8004-85a0-c97c23cde74a",
+     "type": "text",
+     "depth": 1,
+     "text": "Console:"
+    },
+    {
+     "block_id": "351daecf-ce6b-8090-86fd-c52c79027bdc",
+     "type": "bullet",
+     "depth": 1,
+     "text": "No React warnings."
+    },
+    {
+     "block_id": "351daecf-ce6b-808f-b745-c4f9cacce7f7",
+     "type": "bullet",
+     "depth": 1,
+     "text": "No 404s on frame URLs. If any frame 404s, the user forgot to run the ffmpeg extraction - the model should print a clear banner in the dev HTML page pointing them to Section 2 of this prompt."
+    },
+    {
+     "block_id": "351daecf-ce6b-8081-9808-e56197a89da2",
+     "type": "text",
+     "depth": 1,
+     "text": "Perf:"
+    },
+    {
+     "block_id": "351daecf-ce6b-80db-9fcf-c1fea8425c95",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Lighthouse Performance ≥ 85 on desktop."
+    },
+    {
+     "block_id": "351daecf-ce6b-80d5-bb0e-d717a3f0ad08",
+     "type": "bullet",
+     "depth": 1,
+     "text": "LCP < 2.5s (the first frame is the LCP element - preload it with <link rel=\"preload\" as=\"image\" href=\"/frames/frame_0001.{{FRAME_EXT}}\" fetchpriority=\"high\"> in index.html)."
+    },
+    {
+     "block_id": "351daecf-ce6b-80d5-b4d7-e50b186a4bc0",
+     "type": "heading",
+     "depth": 1,
+     "text": "24. FINAL NOTE TO THE GENERATING MODEL"
+    },
+    {
+     "block_id": "351daecf-ce6b-8053-ab3c-da4d6926053a",
+     "type": "text",
+     "depth": 1,
+     "text": "You receive this entire document as one prompt. Do not ask clarifying questions. Do not trim sections. Do not substitute Next.js for Vite. Do not swap Framer Motion for GSAP. Do not skip the scroll-scrub canvas and replace it with a <video> - that single decision is the difference between this being a great site and a generic one."
+    },
+    {
+     "block_id": "351daecf-ce6b-8098-bbfb-dfa5a07fb3b8",
+     "type": "text",
+     "depth": 1,
+     "text": "If a {{PLACEHOLDER}} is empty in the version you received, leave a clearly visible [TODO] marker at that location in the output - don't invent plausible-sounding filler."
+    },
+    {
+     "block_id": "351daecf-ce6b-80ca-a39d-d9a7d9a28c35",
+     "type": "text",
+     "depth": 1,
+     "text": "Build it."
+    }
+   ]
+  },
+  "Strategy": {
+   "": [
+    {
+     "block_id": "352daecf-ce6b-8043-b354-dcecd3abbdef",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Strategy"
+    }
+   ]
+  }
+ }
+}

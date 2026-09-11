@@ -1,0 +1,86 @@
+{
+ "6338675b": {
+  "name": "Lead-gen setup walkthrough (Instagram reel)",
+  "description": "Short reel walking through an n8n plus Claude skills lead-generation setup. The guide itself is gated behind a comment, so treat the reel as the index, not the instructions."
+ },
+ "170d0578": {
+  "name": "Launching 100+ Facebook ads in 30 minutes (Instagram reel)",
+  "description": "Shows Claude Code driving bulk Facebook ad creation, roughly a hundred ads in half an hour. The interesting part is the batching pattern, not the exact numbers."
+ },
+ "97f1698b": {
+  "name": "Agentic social scheduler thread (@shannholmberg)",
+  "description": "Thread breaking down how an operator runs an agentic social-media scheduler end to end with AI skills, including the claimed revenue behind it. Useful as a pipeline shape, sceptical on the figure."
+ },
+ "3f84454e": {
+  "name": "Cold email deliverability lessons (Loom)",
+  "description": "Walkthrough of a cold-email dashboard build and the deliverability lessons behind it: secondary sending domains, multiple mailboxes, and a ceiling of about 450 sends a day."
+ },
+ "e601bb1c": {
+  "name": "Going viral on X (@coreyganim)",
+  "description": "Video post on what actually drives reach on X. Saved for the distribution mechanics rather than for the creator's niche."
+ },
+ "176df781": {
+  "description": "Step-by-step guide to connecting Claude to a Google Ads account, covering the API enablement, OAuth client and refresh token in one pass."
+ },
+ "73f58e78": {
+  "hide": true,
+  "_why": "Repository returns 404; it was made private or deleted."
+ },
+ "8ca39b14": {
+  "description": "Google Cloud console, Credentials page. Where the OAuth client ID for the Google Ads API is created."
+ },
+ "c5af8d2e": {
+  "hide": true,
+  "_why": "Google Cloud console URL redirects to a login wall, so the link cannot be verified from CI."
+ },
+ "a25447b8": {
+  "description": "Google Cloud console, OAuth consent screen. Configure this before creating the client ID or the token exchange fails."
+ },
+ "5df4ffcc": {
+  "description": "Official Google Ads API documentation: the reference for building applications that read and write a Google Ads account programmatically."
+ },
+ "643490d1": {
+  "description": "Google's own walkthrough for setting up the API Console project behind the Google Ads API, using the OAuth desktop flow."
+ },
+ "7339b8ad": {
+  "description": "Google's official Python client library for the Google Ads API. The path of least resistance if you are scripting reports rather than wiring an MCP server."
+ },
+ "f0deaf20": {
+  "description": "The OAuth scope string the Google Ads API requires. Worth keeping to hand: the wrong scope is the most common cause of a silent auth failure."
+ },
+ "f365d4ff": {
+  "name": "Using AI tools to create viral IG reels",
+  "description": "Greg Isenberg walking through a reel-production stack built on Manus, Freepik and friends. Watch it for the pipeline, not the specific tools."
+ },
+ "6675575e": {
+  "name": "AI marketing masterclass, beginner to expert in 60 minutes",
+  "description": "Greg Isenberg's hour-long overview of the current AI marketing stack. The best single starting point here if you are new to this."
+ },
+ "24d6055c": {
+  "name": "Claude MCP for Meta Ads (LinkedIn)",
+  "description": "Short post on wiring Meta Ads into Claude over MCP and what it unlocks once the connection holds."
+ },
+ "23101c0d": {
+  "description": "Meta's public ad library. The fastest way to see exactly what a competitor is running, with no account and no scraping."
+ },
+ "891293f7": {
+  "name": "Ten Claude Code skills that manage Meta ads",
+  "description": "An operator who turned the repetitive Meta Ads Manager work into ten Claude Code skills and published them, aimed at the clicking, exporting and screenshotting that eats a media buyer's day."
+ },
+ "64058356": {
+  "name": "Own the reviews page for your own brand",
+  "description": "Argues for buying yourbrand-reviews as a domain and publishing your reviews there, so the page an AI assistant finds when someone checks you out is one you control."
+ },
+ "f408b945": {
+  "name": "Building a coaching offer that sells",
+  "description": "Breakdown of building and scaling a coaching or consulting offer without the copy-paste funnel playbook. The full roadmap is comment-gated."
+ },
+ "842c669b": {
+  "hide": true,
+  "_why": "The post was deleted; the scraper returns 'This Post is unavailable.'"
+ },
+ "0ed9b66d": {
+  "hide": true,
+  "_why": "developers.facebook.com returns 400 to non-browser clients; the post cannot be verified."
+ }
+}
