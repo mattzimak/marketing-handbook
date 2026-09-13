@@ -1,6 +1,6 @@
 # awesome-sync report
 
-Source page: `319daecfce6b801ca3e3d74a17ce31fa` - generated 2026-09-12. Block ids are Notion block ids (open the page and append `#<id without dashes>` to jump).
+Source page: `319daecfce6b801ca3e3d74a17ce31fa` - generated 2026-09-13. Block ids are Notion block ids (open the page and append `#<id without dashes>` to jump).
 
 ## Counts
 
@@ -17,13 +17,13 @@ Source page: `319daecfce6b801ca3e3d74a17ce31fa` - generated 2026-09-12. Block id
 - SEO: 2
 - Skills for marketers: 3
 - Strategy: 1
-- notes: 393
+- notes: 376
 - media/file blocks skipped: 44
 
 ## Mapped toggles
 
 - `Learning` -> links -> Learning
-- `Cold emailing lessons` -> links+notes -> Cold email
+- `Cold emailing lessons` -> links -> Cold email
 - `Meta Ads` -> links+notes -> Meta Ads
 - `Meta Ads > Setting up Business Suite account (NoeAI)` -> links-only-github -> Meta Ads / Connectors
 - `Meta Ads > Connecting Meta Acc to Claude Code (NoeAI)` -> links-only-github -> Meta Ads / Connectors
@@ -59,6 +59,7 @@ Source page: `319daecfce6b801ca3e3d74a17ce31fa` - generated 2026-09-12. Block id
 - `Meta Ads > Setting up Business Suite account (NoeAI)` -> links-only-github: Third-party lesson material: links only, no prose is published from this toggle.
 - `Meta Ads > Connecting Meta Acc to Claude Code (NoeAI)` -> links-only-github: Third-party lesson material: links only, no prose is published from this toggle.
 - `Meta Ads > Adding client ad accounts (Agency) (NoeAI)` -> links-only-github: Third-party lesson material: links only, no prose is published from this toggle.
+- `Cold emailing lessons` -> links: The prose in this toggle is a third-party post pasted from a paid community, written in its author's first person. Links only, so none of it is republished; each entry carries a description written for this list.
 
 ## Unmapped, defaulted to private (fail closed)
 

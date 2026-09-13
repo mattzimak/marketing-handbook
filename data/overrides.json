@@ -12,8 +12,8 @@
   "description": "Thread breaking down how an operator runs an agentic social-media scheduler end to end with AI skills, including the claimed revenue behind it. Useful as a pipeline shape, sceptical on the figure."
  },
  "3f84454e": {
-  "name": "Cold email deliverability lessons (Loom)",
-  "description": "Walkthrough of a cold-email dashboard build and the deliverability lessons behind it: secondary sending domains, multiple mailboxes, and a ceiling of about 450 sends a day."
+  "name": "Cold email deliverability walkthrough (Loom)",
+  "description": "A practitioner's video on building a cold-email dashboard and what the first weeks taught them: secondary sending domains, many mailboxes, and a daily send ceiling."
  },
  "e601bb1c": {
   "name": "Going viral on X (@coreyganim)",
@@ -82,5 +82,13 @@
  "0ed9b66d": {
   "hide": true,
   "_why": "developers.facebook.com returns 400 to non-browser clients; the post cannot be verified."
+ },
+ "85031148": {
+  "name": "Mailforge",
+  "description": "Bulk mailbox provisioning for cold email. The common reason to use it is spreading send volume across many inboxes on secondary domains instead of burning one."
+ },
+ "8c576480": {
+  "name": "r/coldemail",
+  "description": "The subreddit where high-volume cold emailers compare deliverability, offers and sequencing. Worth reading many threads rather than trusting any single one."
  }
 }

@@ -69,11 +69,9 @@ My notes on this section: [SEO](FIELD-NOTES.md#seo) (18 notes).
 
 Deliverability, sequencing and the lessons that cost me something to learn.
 
-- [Cold email deliverability lessons (Loom)](https://www.loom.com/share/4f2bf50235cc4cedb0b3e26584512aaf) - Walkthrough of a cold-email dashboard build and the deliverability lessons behind it: secondary sending domains, multiple mailboxes, and a ceiling of about 450 sends a day.
-- [Mailforge | Cold Email Infrastructure Sorted In Minutes](https://mailforge.ai) - 8. You'll need lots of mailboxes. I like Mailforge.ai for this. You can buy bulk email inboxes, then import them into Instantly.ai for your warmup and mailing. It's cheaper than Instantly's inboxes. If you want to skip the warmup step, Instantly has pre-warmed emails for sale. You can grab a bunch of those and immediately start ripping. · also: [instantly.ai](https://instantly.ai)
-- [Reddit](https://www.reddit.com/r/coldemail) - 6. Offer is more important than copy. The right offer, framed correctly, will do more for you than world class copy. This was another nugget from a large emailer in the reddit coldemail sub. In case you haven't figured it out yet, you need to read a bunch of stuff from that sub. It's the best for cold email. A named free deliverable per industry will outperform a generic "let's chat".
-
-My notes on this section: [Cold email](FIELD-NOTES.md#cold-email) (16 notes).
+- [Cold email deliverability walkthrough (Loom)](https://www.loom.com/share/4f2bf50235cc4cedb0b3e26584512aaf) - A practitioner's video on building a cold-email dashboard and what the first weeks taught them: secondary sending domains, many mailboxes, and a daily send ceiling.
+- [Mailforge](https://mailforge.ai) - Bulk mailbox provisioning for cold email. The common reason to use it is spreading send volume across many inboxes on secondary domains instead of burning one. · also: [instantly.ai](https://instantly.ai)
+- [r/coldemail](https://www.reddit.com/r/coldemail) - The subreddit where high-volume cold emailers compare deliverability, offers and sequencing. Worth reading many threads rather than trusting any single one.
 
 ## Ads
 
@@ -131,7 +129,7 @@ From there everything is reproducible from this repo alone: `tools/enrich.py` ch
 
 Nothing here is edited by hand. Fixes go to `data/overrides.json` and the next build picks them up.
 
-Current build: 27 entries in 10 sections, 368 field notes. Links checked: 27, dead: 0, last check: 2026-09-11. What the sync excluded and why is in `data/_report.md`. The field notes are rendered into `FIELD-NOTES.md` by the same build.
+Current build: 27 entries in 10 sections, 352 field notes. Links checked: 27, dead: 0, last check: 2026-09-11. What the sync excluded and why is in `data/_report.md`. The field notes are rendered into `FIELD-NOTES.md` by the same build.
 
 ## License
 

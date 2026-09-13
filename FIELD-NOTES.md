@@ -1,6 +1,6 @@
 # Marketing field notes
 
-368 notes in 7 sections · built from the same data as README.md
+352 notes in 6 sections · built from the same data as README.md
 
 The long-form notes behind [README.md](README.md): setup walkthroughs, analysis recipes and prompts that are too long to sit in a link list.
 
@@ -13,7 +13,6 @@ The long-form notes behind [README.md](README.md): setup walkthroughs, analysis 
   - [Connectors](#connectors)
 - [SEO](#seo) (18 notes)
   - [Search Console audit](#search-console-audit)
-- [Cold email](#cold-email) (16 notes)
 - [Ads](#ads) (4 notes)
   - [Pipelines](#pipelines)
 - [Distribution](#distribution) (1 notes)
@@ -127,27 +126,6 @@ Links for this section are in [README.md](README.md#seo).
 - 9. Top linking sites + top linked pages (export both)
 - Manual actions / Security:
 - 10. Screenshot - should be "No issues" but worth confirming
-
-## Cold email
-
-Links for this section are in [README.md](README.md#cold-email).
-
-- (paid community post)
-- Two weeks into cold emailing (very low volume) and the number of things I've learned has been absolutely insane. This post is going to be the TLDR; version. If you want more in depth, watch the video and / or download read the document attached.
-- I built my Outreach Dashboard (working name, I use with Claude) to be part of my cold email infrastructure. It's where I can view stats like deliverability, replies, bookings, etc. The first week was mostly tweaking the workflows, database, campaign structures, and email lists. The second week was finding posts about cold mailing to help further tweak things.
-- Yesterday, I sent my first 20 "real" emails. Even throughout the day I was learning stuff. Every lesson learned, Claude saved, so I could reference back to them.
-- Here are some of my learnings in no particular order:
-- Don't read a singular post about cold emailing and think "Oh, I'm good, I know what to do". Read dozens, or hundreds if you can. Many, many of them will reiterate the same things, which is good. That means those items are important, but occasionally, you'll find a tiny nugget in a single thread that could change things tremendously. Those nuggets are included in the .md doc, and I'll try to point them out here as well.
-- 2. Mailgun is NOT the mailing software to use. Mailgun is only good for transactional emails. Cold emails (marketing emails) are against their TOS
-- 3. Never use your primary domain for emailing. You need your primary domain to be clean and solid for your clients.
-- 4. Text only emails. If you send HTML emails, in theory, you can get open rates in your dashboard, but the tradeoff is HTML emails will marginally hurt deliverability. Once you get to thousands of emails per day, any tiny marginal difference can be HUGE. The ONLY advantage to HTML emails is being able to see if there was an open.
-- 5. Speaking of opens... they don't matter. All that matters is reply rate. I'm trying to find the thread, but I remember reading yesterday that at scale, you want to see 2 - 5%. Much lower than what I originally thought. For guys seeing over 10%, they're able to send hyper personalized emails. That requires a list I don't know how to build yet... when I figure it out, I'll let you know.
-- 7. Email validation is non-negotiable. You MUST use an email validation service on all your lists, regardless of where you got the list. I personally don't trust the "we do it all" places that will build, enrich and validate. Validation is something I do with a specialized email validator like Neverbounce or Zerobounce. I have used both. I like Neverbounce better. It's cheaper, allows you to pay as you go, and doesn't give me a huge zip file full of files I don't need.
-- 9. Do NOT mail to MSN accounts. Anything that is part of Microsoft's network: Hotmail, Live, MSN, etc. Microsoft is the killer of deliverability. Why? I have no idea, but I know from practical experience that my personal email gets more non-spam in the spam box than any other I've ever used. Limit your emails to Gmail and Google workspace for better deliverability.
-- 10. Adding to this deliverability is King. Nothing else matters if you can't hit inboxes. The more inboxes you hit, the more eyes will see your emails, the more will open, the more will respond, but it all starts with deliverability.
-- 11. Less is more. According to one golden thread in r/coldemail by a guy sending 2000+ emails per day, the third email and beyond significantly increases the spam rate. According to him, the first two are your golden ticket, after that, MAYBE a third, but it has to be something like a breakup email. Otherwise, he only emails a two email sequence.
-- Okay, that's enough typing. Read the attached, watch the video, and I'll report back as I get data and solid numbers flowing in.
-- Cheers!
 
 ## Ads
 
