@@ -2,7 +2,7 @@
 
 {{header_line}}
 
-One founder's handbook for running marketing with AI agents: connecting Google Ads and Meta to Claude, the analyses I actually run, what to pull out of Search Console, cold-email lessons, and the skills and prompts behind it. It is not a directory of everything that exists - if something is here, it earned its place in real work. The longer notes live in [FIELD-NOTES.md](FIELD-NOTES.md). Suggest a link by opening an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+One founder's handbook for running marketing with AI agents: connecting Google Ads and Meta to Claude, the analyses I actually run, what to pull out of Search Console, cold-email lessons, and the skills behind it. It is not a directory of everything that exists - if something is here, it earned its place in real work. The longer notes live in [FIELD-NOTES.md](FIELD-NOTES.md). Suggest a link by opening an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 Descriptions are my own notes where I wrote one. Where I only saved a link, the description comes from the page, post or repository itself. Ratings like `(Matt: 8/10)` are my personal scores.
 

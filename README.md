@@ -2,7 +2,7 @@
 
 27 entries · last verified 2026-09-11 · 27 links checked · 0 dead
 
-One founder's handbook for running marketing with AI agents: connecting Google Ads and Meta to Claude, the analyses I actually run, what to pull out of Search Console, cold-email lessons, and the skills and prompts behind it. It is not a directory of everything that exists - if something is here, it earned its place in real work. The longer notes live in [FIELD-NOTES.md](FIELD-NOTES.md). Suggest a link by opening an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+One founder's handbook for running marketing with AI agents: connecting Google Ads and Meta to Claude, the analyses I actually run, what to pull out of Search Console, cold-email lessons, and the skills behind it. It is not a directory of everything that exists - if something is here, it earned its place in real work. The longer notes live in [FIELD-NOTES.md](FIELD-NOTES.md). Suggest a link by opening an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 Descriptions are my own notes where I wrote one. Where I only saved a link, the description comes from the page, post or repository itself. Ratings like `(Matt: 8/10)` are my personal scores.
 
@@ -19,7 +19,6 @@ Descriptions are my own notes where I wrote one. Where I only saved a link, the 
 - [Skills for marketers](#skills-for-marketers)
 - [Distribution](#distribution)
 - [Strategy](#strategy)
-- [Prompts](#prompts)
 - [Learning](#learning)
 - [How this list is built](#how-this-list-is-built)
 - [License](#license)
@@ -108,12 +107,6 @@ The thinking above the tactics.
 
 - [Building a coaching offer that sells](https://www.instagram.com/reel/DW8TbCSDWOZ) - Breakdown of building and scaling a coaching or consulting offer without the copy-paste funnel playbook. The full roadmap is comment-gated.
 
-## Prompts
-
-Long prompts worth keeping.
-
-My notes on this section: [Prompts](FIELD-NOTES.md#prompts) (271 notes).
-
 ## Learning
 
 People and sources worth your time.
@@ -129,7 +122,7 @@ From there everything is reproducible from this repo alone: `tools/enrich.py` ch
 
 Nothing here is edited by hand. Fixes go to `data/overrides.json` and the next build picks them up.
 
-Current build: 27 entries in 10 sections, 352 field notes. Links checked: 27, dead: 0, last check: 2026-09-11. What the sync excluded and why is in `data/_report.md`. The field notes are rendered into `FIELD-NOTES.md` by the same build.
+Current build: 27 entries in 9 sections, 81 field notes. Links checked: 27, dead: 0, last check: 2026-09-11. What the sync excluded and why is in `data/_report.md`. The field notes are rendered into `FIELD-NOTES.md` by the same build.
 
 ## License
 

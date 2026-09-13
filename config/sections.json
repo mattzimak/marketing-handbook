@@ -63,14 +63,6 @@
    "subsections": []
   },
   {
-   "name": "Prompts",
-   "blurb": "Long prompts worth keeping.",
-   "kind": "mixed",
-   "subsections": [
-    "Landing page mega-prompt"
-   ]
-  },
-  {
    "name": "Learning",
    "blurb": "People and sources worth your time.",
    "kind": "links",
