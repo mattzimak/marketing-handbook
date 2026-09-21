@@ -1,6 +1,6 @@
 # Marketing handbook
 
-27 entries · last verified 2026-09-11 · 27 links checked · 0 dead
+27 entries · last verified 2026-09-21 · 27 links checked · 0 dead
 
 One founder's handbook for running marketing with AI agents: connecting Google Ads and Meta to Claude, the analyses I actually run, what to pull out of Search Console, cold-email lessons, and the skills behind it. It is not a directory of everything that exists - if something is here, it earned its place in real work. The longer notes live in [FIELD-NOTES.md](FIELD-NOTES.md). Suggest a link by opening an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
@@ -37,7 +37,7 @@ Connecting an account to Claude, and the analyses I actually run against it.
 - [Documentation](https://developers.google.com/google-ads/api) - Official Google Ads API documentation: the reference for building applications that read and write a Google Ads account programmatically.
 - [Google Ads API](https://developers.google.com/google-ads/api/docs/oauth/cloud-project) - Google's own walkthrough for setting up the API Console project behind the Google Ads API, using the OAuth desktop flow.
 - [Google Ads API Center](https://ads.google.com/aw/apicenter) - (open this while signed into the Ads account) → confirm whether your token jl5-uISP_WMAzsy_1ewk-g is Test, Basic, or Standard access. Test access can only call test accounts; you'd need to apply for Basic access to hit your live 354-835-9598 account. · also: [support.google.com](https://support.google.com/adspolicy/contact/new_token_application)
-- [google-ads-python](https://github.com/googleads/google-ads-python/blob/main/examples/authentication/generate_user_credentials.py) - Google's official Python client library for the Google Ads API. The path of least resistance if you are scripting reports rather than wiring an MCP server. · 746 stars · Apache-2.0 · updated 2026-09
+- [google-ads-python](https://github.com/googleads/google-ads-python/blob/main/examples/authentication/generate_user_credentials.py) - Google's official Python client library for the Google Ads API. The path of least resistance if you are scripting reports rather than wiring an MCP server. · 750 stars · Apache-2.0 · updated 2026-09
 - [Scope](https://developers.google.com/google-ads/api/docs/oauth/internals#scope) - The OAuth scope string the Google Ads API requires. Worth keeping to hand: the wrong scope is the most common cause of a silent auth failure. · also: [googleapis.com](https://www.googleapis.com/auth/adwords)
 
 My notes on this section: [Google Ads](FIELD-NOTES.md#google-ads) (49 notes).
@@ -89,9 +89,9 @@ My notes on this section: [Ads](FIELD-NOTES.md#ads) (4 notes).
 
 Claude skills that do real marketing work.
 
-- [Brand Guidelines](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines) - Encode your brand into a skill. Auto-applies everywhere. · 175k stars · updated 2026-09
-- [Claude SEO](https://github.com/AgriciDaniel/claude-seo) - Full-site audits, schema validation. 12 sub-skills. · 16k stars · MIT · updated 2026-09
-- [Marketing Skills by Corey Haines](https://github.com/coreyhaines31/marketingskills) - 20+ skills: CRO, copywriting, SEO, email sequences, growth. · 49k stars · MIT · updated 2026-09
+- [Brand Guidelines](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines) - Encode your brand into a skill. Auto-applies everywhere. · 177k stars · updated 2026-09
+- [Claude SEO](https://github.com/AgriciDaniel/claude-seo) - Full-site audits, schema validation. 12 sub-skills. · 17k stars · MIT · updated 2026-09
+- [Marketing Skills by Corey Haines](https://github.com/coreyhaines31/marketingskills) - 20+ skills: CRO, copywriting, SEO, email sequences, growth. · 51k stars · MIT · updated 2026-09
 
 ## Distribution
 
@@ -122,7 +122,7 @@ From there everything is reproducible from this repo alone: `tools/enrich.py` ch
 
 Nothing here is edited by hand. Fixes go to `data/overrides.json` and the next build picks them up.
 
-Current build: 27 entries in 9 sections, 81 field notes. Links checked: 27, dead: 0, last check: 2026-09-11. What the sync excluded and why is in `data/_report.md`. The field notes are rendered into `FIELD-NOTES.md` by the same build.
+Current build: 27 entries in 9 sections, 81 field notes. Links checked: 27, dead: 0, last check: 2026-09-21. What the sync excluded and why is in `data/_report.md`. The field notes are rendered into `FIELD-NOTES.md` by the same build.
 
 ## License
 
