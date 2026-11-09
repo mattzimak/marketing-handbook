@@ -387,6 +387,32 @@ def render_group(entries, notes, base_indent=0, split=False):
     return lines, note_lines, len(entries), n_notes
 
 
+def badge_row(config, n_entries, n_checked, dead):
+    """The public-repo badge row (Matt's standard, 2026-11-09): licence and last commit read live by shields.io,
+    the entry and dead-link counts from this build, an optional status from config ("badge_status": "Unofficial")."""
+    import subprocess as _sp
+    slug = config.get("repo") or ""
+    if not slug:
+        try:
+            url = _sp.run(["git", "-C", ROOT, "config", "--get", "remote.origin.url"], capture_output=True, text=True).stdout.strip()
+            m = re.search(r"github\.com[:/]([^/]+/[^/.]+?)(?:\.git)?$", url)
+            slug = m.group(1) if m else ""
+        except Exception:
+            slug = ""
+    enc = lambda s: s.replace("-", "--").replace("_", "__").replace(" ", "%20")
+    parts = []
+    if slug:
+        parts.append("[![License](https://img.shields.io/github/license/%s)](https://github.com/%s/blob/main/LICENSE)" % (slug, slug))
+        parts.append("![Last commit](https://img.shields.io/github/last-commit/%s?label=updated)" % slug)
+    parts.append("![%d entries](https://img.shields.io/badge/%s-2ea043)" % (n_entries, enc("%d entries" % n_entries)))
+    if n_checked:
+        parts.append("![%d dead links](https://img.shields.io/badge/%s-%s)" % (dead, enc("%d dead links" % dead), "2ea043" if dead == 0 else "e05d44"))
+    status = config.get("badge_status")
+    if status:
+        parts.append("![%s](https://img.shields.io/badge/%s-lightgrey)" % (status, enc(status)))
+    return " ".join(parts)
+
+
 def build(notes_file=None):
     """Render README.md (and the notes file when one is configured). Returns (readme, notes_doc, stats, entries);
     notes_doc is "" when no notes file is in use."""
@@ -548,6 +574,7 @@ def build(notes_file=None):
     stats.update(header=header, checked=len(checked), dead=dead, last_checked=last, notes_file=notes_file)
 
     out = template
+    out = out.replace("{{badges}}", badge_row(config, len(entries), len(checked), dead))
     out = out.replace("{{header_line}}", header)
     out = out.replace("{{toc}}", "\n".join(toc))
     out = out.replace("{{start_here}}", "\n".join(start_lines).rstrip())

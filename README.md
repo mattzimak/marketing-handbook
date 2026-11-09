@@ -1,5 +1,7 @@
 # Marketing handbook
 
+[![License](https://img.shields.io/github/license/mattzimak/marketing-handbook)](https://github.com/mattzimak/marketing-handbook/blob/main/LICENSE) ![Last commit](https://img.shields.io/github/last-commit/mattzimak/marketing-handbook?label=updated) ![27 entries](https://img.shields.io/badge/27%20entries-2ea043) ![0 dead links](https://img.shields.io/badge/0%20dead%20links-2ea043)
+
 27 entries · last verified 2026-09-11 · 27 links checked · 0 dead
 
 One founder's handbook for running marketing with AI agents: connecting Google Ads and Meta to Claude, the analyses I actually run, what to pull out of Search Console, cold-email lessons, and the skills behind it. It is not a directory of everything that exists - if something is here, it earned its place in real work. The longer notes live in [FIELD-NOTES.md](FIELD-NOTES.md). Suggest a link by opening an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
